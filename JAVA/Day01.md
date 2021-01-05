@@ -40,4 +40,4 @@
   - 배우기 쉽고 사용하기 쉬움  
   - 자동 메모리 관리(Garbage Collection)  
   
-  [HelloJava](https://github.com/icici0093/KH_Study/blob/main/HelloJava.java)
+  [HelloJava](https://github.com/icici0093/KH_Study/blob/main/HelloJava.java)  
