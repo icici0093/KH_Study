@@ -12,4 +12,12 @@
      1. 자바(JAVA)는 셋탑박스, 텔레비전과 같은 디지털 장치를 제어하기 위해 만들어진 언어  
      2. 웹이 등장하면서 자바가 웹을 통해 엄청난 성공을 거두며 주류 언어로 자리 잡음  
      3. 현재 국내에서는 정부 및 기업의 시스템 통합 프로젝트(SI Project)가 대부분 자바를 기반으로 이루어지고 있음  
-![작동원리](https://user-images.githubusercontent.com/68003227/103624204-8de3fd00-4f7c-11eb-943c-89abf66aab5e.png)
+     
+# 작동원리
+![작동원리](https://user-images.githubusercontent.com/68003227/103624204-8de3fd00-4f7c-11eb-943c-89abf66aab5e.png)  
+
+  - byte code : JVM이 실행하는 명령어 집합(.class파일)  
+  - JVM  
+     1. Platform(운영체제)에 독립적이며 Bytecode(Class파일)을 해석하고 실행  
+     2. Java 프로그램과 운영체제를 연결해주는 기능을 수행  
+  
