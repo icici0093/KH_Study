@@ -2,4 +2,4 @@
 
 [Day 01] (KH/JAVA/Day01.md)
 
-<a href="/KH/JAVA/Day01.md> Day 01 </a>
+<a href="/KH/JAVA/Day01.md"> Day 01 </a>
