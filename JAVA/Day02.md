@@ -6,6 +6,7 @@
   - 정보(Information)  
     - 정보란 데이터를 기반으로 하여 의미를 부여한 것이다.  
   **JAVA에서 변수는 반드시 선언 후에 값을 대입해야 한다.**  
+  
 •[Exam_01](https://github.com/icici0093/KH_Study/blob/main/code/Exam_01.java)  
  
 # 변수의 선언 / 변수의 초기화  
