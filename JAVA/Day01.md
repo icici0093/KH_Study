@@ -36,7 +36,7 @@
     2. 프로그램 상의 데이터에 초점을 맞춘 것  
   - 운영체제 독립적  
     1. Write Once, Run Everywhere!  
-    2. 한번 작성된 코드는 모든 플랫폼에서 바로 실행 가능 - <p style="color:red">JVM</p>
+    2. 한번 작성된 코드는 모든 플랫폼에서 바로 실행 가능 - JVM  
   - 배우기 쉽고 사용하기 쉬움  
   - 자동 메모리 관리(Garbage Collection)  
   
