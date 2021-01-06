@@ -6,7 +6,7 @@
   - 정보(Information)  
     - 정보란 데이터를 기반으로 하여 의미를 부여한 것이다.  
   **JAVA에서 변수는 반드시 선언 후에 값을 대입해야 한다.**  
-•[Exam_01]()  
+•[Exam_01](https://github.com/icici0093/KH_Study/blob/main/code/Exam_01.java)  
  
 # 변수의 선언 / 변수의 초기화  
   - 메모리 상에 데이터를 저장할 수 있는 공간을 할당하는 것  
@@ -38,8 +38,8 @@
   * 문자는 1글자만 표기할 수 있고, 문자열은 1글자 이상을 표기할 수 있음  
   * 문자는 사실상 하나의 숫자값임 (아스키코드값)  
   
-•[Exam_02]()  
-•[Exam_03]()  
+•[Exam_02](https://github.com/icici0093/KH_Study/blob/main/code/Exam_02.java)  
+•[Exam_03](https://github.com/icici0093/KH_Study/blob/main/code/Exam_03.java)  
   
   - 기본형(Primitive type)  
     - **실제 데이터값을 저장**  
@@ -50,7 +50,7 @@
     - 기본형을 제외한 나머지(String 등), **사용자정의 자료형**(class)  
     - 4byte의 공간을 저장공간으로 할당  
     
-•[Exercise_01]()  
+•[Exercise_01](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_01.java)  
 
 # 상수  
   상수란?  
@@ -72,13 +72,13 @@
   3. char형은 int형으로 자동 형변환이 가능하다.  
   -------------------------------------------
   byte ➡️ short ➡️ int ➡️ long ➡️ float ➡️ double  
-        .char ↗️  
+          char ↗️  
          
   예) int a = 12;  
       double d = 3.3;  
       double result = a + d;  
       a + d ➡️ 12 + 3.3 ➡️ 12.0 + 3.3 ➡️ 15.3  
-•[Exam_Casting]()  
+•[Exam_Casting](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Casting.java)  
 
   주의점 : 데이터가 큰 자료형에서 작은 자료형으로 변경 시 데이터 손실이 있을 수 있어 유의해야 한다.  
   
@@ -93,9 +93,9 @@
     - 정수 : scanner.nextInt();  
     - 실수 : scanner.nextFloat();, scanner.nextDouble();  
     - 문자열 : scanner.next();, scanner.nextLine();  
-    ⭕️ 문자를 입력받는 법 : Scanner.next().charAt(0); <-- 첫번째 값 하나만 가져옴.  
-•[Exam_Scanner]()  
-•[Exercise_Character]()  
+      문자를 입력받는 법 : Scanner.next().charAt(0); <-- 첫번째 값 하나만 가져옴.  
+•[Exam_Scanner](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Scanner.java)  
+•[Exercise_Character](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Character.java)  
 
 # 출력 메소드  
   - System.out.print(); : ()안의 변수, 문자, 숫자, 논리값을 모니터에 출력해주는 메소드  
