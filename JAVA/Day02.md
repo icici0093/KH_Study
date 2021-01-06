@@ -74,46 +74,43 @@
 
   byte ➡️ short ➡️ int ➡️ long ➡️ float ➡️ double  
           char ↗️  
-         
+
   예) int a = 12;  
       double d = 3.3;  
       double result = a + d;  
       a + d ➡️ 12 + 3.3 ➡️ 12.0 + 3.3 ➡️ 15.3  
+  주의점 : 데이터가 큰 자료형에서 작은 자료형으로 변경 시 데이터 손실이 있을 수 있어 유의해야 한다.  
+
 • [Exam_Casting](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Casting.java)  
 
-  주의점 : 데이터가 큰 자료형에서 작은 자료형으로 변경 시 데이터 손실이 있을 수 있어 유의해야 한다.  
-  
+
 # 입력 Scanner Class  
   사용자로부터 입력되는 정수, 실수, 문자열을 처리하는 클래스  
   사용할 떈 Scanner Class import 작성  
     - import.java.util.Scanner;  
   Scanner 객체 생성 후 사용  
-    - Scanner scanner = new Scanner(System.in);   
-
+    - Scanner scanner = new Scanner(System.in);  
+    
   키보드 입력값 받기  
     - 정수 : scanner.nextInt();  
     - 실수 : scanner.nextFloat();, scanner.nextDouble();  
     - 문자열 : scanner.next();, scanner.nextLine();  
-      문자를 입력받는 법 : Scanner.next().charAt(0); <-- 첫번째 값 하나만 가져옴.  
+
+  문자를 입력받는 법 : Scanner.next().charAt(0); <-- 첫번째 값 하나만 가져옴.  
 • [Exam_Scanner](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Scanner.java)  
 • [Exercise_Character](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Character.java)  
 
 # 출력 메소드  
-  - System.out.print(); : ()안의 변수, 문자, 숫자, 논리값을 모니터에 출력해주는 메소드  
-  - System.out.println(); : print와 동일하게 출력해주지만 출력 후 자동으로 출력창에 **줄바꿈**을 해주는 메소드  
-  - System.out.printf("%형식", 변수); : 정해져있는 형식에 맞춰서 그 형식에 맞는 값(변수)를 줄바꿈 하지 않고 출력  
-    - 정수표현 : %d(정수형), %o(8진수), %x(16진수)  
-    - 실수표현 : %f(실수. 소수점 아래 6자리), %e(지수형태표현), %g(%e와 %f중 더 짧은 표현을 사용), %A(16진수 실수)  
-    - 문자/문자열 : %c(문자), %s(문자열)  
-    - 불린형 : %b(논리형)  
+  System.out.print(); : ()안의 변수, 문자, 숫자, 논리값을 모니터에 출력해주는 메소드  
+  System.out.println(); : print와 동일하게 출력해주지만 출력 후 자동으로 출력창에 줄바꿈을 해주는 메소드  
+  System.out.printf("%형식", 변수); : 정해져있는 형식에 맞춰서 그 형식에 맞는 값(변수)를 줄바꿈 하지 않고 출력  
+
+  정수표현 : %d(정수형), %o(8진수), %x(16진수)  
+  실수표현 : %f(실수. 소수점 아래 6자리), %e(지수형태표현), %g(%e와 %f중 더 짧은 표현을 사용), %A(16진수 실수)  
+  문자/문자열 : %c(문자), %s(문자열)  
+  불린형 : %b(논리형)  
   
   너비 및 정렬방법  
     - %5d : 5칸을 확보하고 오른쪽정렬  
     - %-5d : 5칸을 확보하고 왼쪽정렬  
     - %.2f : 소수점 아래 2자리까지만 표시  
-  
-
-
-
-
-
