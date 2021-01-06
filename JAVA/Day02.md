@@ -73,7 +73,6 @@
   3. char형은 int형으로 자동 형변환이 가능하다.  
 
   byte ➡️ short ➡️ int ➡️ long ➡️ float ➡️ double  
-          char ↗️  
 
   예) int a = 12;  
       double d = 3.3;  
