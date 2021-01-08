@@ -53,7 +53,7 @@
 
 •[Exam_Triple](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Triple.java)  
 •[Exercise_Triple1](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Triple1.java)  
-
+•[Exercise_Triple2](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Triple2.java)  
     
 # 대입연산자  
   - 복합 대입 연산자 +=, -=, *=, /=, %=  
