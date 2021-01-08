@@ -5,23 +5,23 @@ import java.util.Scanner;
 public class Exercise_Triple2 {
 
 	public static void main(String[] args) {
-		// »ïÇ×¿¬»êÀÚ ÁßÃ¸ »ç¿ë
-		// µÎ ¼ö¿Í '+' ¶Ç´Â '-'¸¦ ÀÔ·Â¹Ş¾Æ ¾Ë¸ÂÀº °è»ê °á°ú Ãâ·ÂÇÏ±â
-		// ´Ü, '+', '-' ÀÌ¿ÜÀÇ ¿¬»êÀÚ ÀÔ·Â½Ã "Àß¸øÀÔ·ÂÇÏ¼Ì½À´Ï´Ù!" Ãâ·ÂÇÏ±â
+		// ì‚¼í•­ì—°ì‚°ì ì¤‘ì²© ì‚¬ìš©
+		// ë‘ ìˆ˜ì™€ '+' ë˜ëŠ” '-'ë¥¼ ì…ë ¥ë°›ì•„ ì•Œë§ì€ ê³„ì‚° ê²°ê³¼ ì¶œë ¥í•˜ê¸°
+		// ë‹¨, '+', '-' ì´ì™¸ì˜ ì—°ì‚°ì ì…ë ¥ì‹œ "ì˜ëª»ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤!" ì¶œë ¥í•˜ê¸°
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Ã¹¹ø¤Š °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ì²«ë²ˆÂŠ ê°’ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		int first = sc.nextInt();
 		
-		System.out.print("µÎ¹øÂ° °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë‘ë²ˆì§¸ ê°’ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		int second = sc.nextInt();
 		
-		System.out.print("¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ì—°ì‚°ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		char op = sc.next().charAt(0);
 		
-		String result = op == '+' ? first + second + "" : (ch == '-'? first-second + "" : "Àß¸øÀÔ·ÂÇÏ¼Ì½À´Ï´Ù!");
-		
-		System.out.println("°è»ê °á°ú : " + result);
+		String result = op == '+' ? first + second + "" : (ch == '-'? first-second + "" : "ì˜ëª»ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤!");
+		// ""ë¥¼ ë¶™ì—¬ ë¬¸ìì—´ë¡œ ì¸ì‹ë˜ê²Œ ë³€ê²½
+		System.out.println("ê³„ì‚° ê²°ê³¼ : " + result);
 
 	}
 
