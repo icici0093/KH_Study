@@ -19,7 +19,7 @@ public class Exercise_Triple2 {
 		System.out.print("연산자를 입력하세요 : ");
 		char op = sc.next().charAt(0);
 		
-		String result = op == '+' ? first + second + "" : (ch == '-'? first-second + "" : "잘못입력하셨습니다!");
+		String result = op == '+' ? first + second + "" : (op == '-'? first-second + "" : "잘못입력하셨습니다!");
 		// ""를 붙여 문자열로 인식되게 변경
 		System.out.println("계산 결과 : " + result);
 
