@@ -14,7 +14,7 @@ public class Exercise_Triple1 {
 		
 		String result = num < 0 ? "음수" : (num == 0 ? "0" : "양수");
 		
-		System.out.println("양수일까? 음수일까? 정체가 뭘까? : " + result + "입니다.");
+		System.out.println(num + "은/는 " + result + "입니다.");
 
 	}
 
