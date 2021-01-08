@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Exercise_Triple1 {
 
 	public static void main(String[] args) {
-		// »ïÇ×¿¬»êÀÚ ÁßÃ¸ »ç¿ë
-		// ÀÔ·Â¹ŞÀº Á¤¼ö°¡ ¾ç¼ö, 0, À½¼öÀÎÁö ÆÇº° ÈÄ Ãâ·ÂÇÏ¼¼¿ä
+		// ì‚¼í•­ì—°ì‚°ì ì¤‘ì²© ì‚¬ìš©
+		// ì…ë ¥ë°›ì€ ì •ìˆ˜ê°€ ì–‘ìˆ˜, 0, ìŒìˆ˜ì¸ì§€ íŒë³„ í›„ ì¶œë ¥í•˜ì„¸ìš”
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		int num = sc.nextInt();
 		
-		String result = num < 0 ? "À½¼ö" : (num == 0 ? "0" : "¾ç¼ö");
+		String result = num < 0 ? "ìŒìˆ˜" : (num == 0 ? "0" : "ì–‘ìˆ˜");
 		
-		System.out.println("¾ç¼öÀÏ±î? À½¼öÀÏ±î? Á¤Ã¼°¡ ¹»±î? : " + result);
+		System.out.println("ì–‘ìˆ˜ì¼ê¹Œ? ìŒìˆ˜ì¼ê¹Œ? ì •ì²´ê°€ ë­˜ê¹Œ? : " + result + "ì…ë‹ˆë‹¤.");
 
 	}
 
