@@ -4,7 +4,7 @@
   - 연산자는 연산을 수행하는 기호(+,-,*,/)  
   - 피연산자는 연산자의 작업대상(변수,상수,리터럴,수식)이 됨  
 
-•[Exam_Calculator](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Calculator.java)  
+• [Exam_Calculator](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Calculator.java)  
 
 # 증감연산자  
   - 단독사용시 : 증감연산자를 단독으로 사용할때는 전위/후위 모두 같은 연산 결과를 갖는다.  
@@ -14,9 +14,9 @@
   전위연산 : 자신의 연산을 우선 실행 후 다음 연산 ( ++a; -> b = a; )  
   후위연산 : 인접한 연산을 먼저 실행 후 자신의 연산 실행 ( b = a; -> a++ )  
   
-•[Exam_Unary_01](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Unary_01.java)  
-•[Exam_Unary_02](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Unary_02.java)  
-•[Exam_Unary_03](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Unary_03.java)  
+• [Exam_Unary_01](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Unary_01.java)  
+• [Exam_Unary_02](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Unary_02.java)  
+• [Exam_Unary_03](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Unary_03.java)  
 
 # 비트연산자  
   - 비트단위 연산을 하는 것 (같은 위치의 비트 비교)  
@@ -40,9 +40,9 @@
   - a && b : a, b 모두 참일때 **참**  
   - a || b : a, b 하나라도 참이면 **참**  
   
-•[Exam_Logical_01](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Logical_01.java)  
-•[Exam_Logical_02](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Logical_02.java)  
-•[Exam_Logical_03](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Logical_03.java)  
+• [Exam_Logical_01](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Logical_01.java)  
+• [Exam_Logical_02](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Logical_02.java)  
+• [Exam_Logical_03](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Logical_03.java)  
 
 # 삼항연산자  
   - 조건식을 이용하여 결과값에 따라 연산을 처리하는 방식  
@@ -51,9 +51,9 @@
   - 이중 삼항 연산자도 가능  
     - 예) a < b ? a-- : (b==0 ? a++ : b--);  
 
-•[Exam_Triple](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Triple.java)  
-•[Exercise_Triple1](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Triple1.java)  
-•[Exercise_Triple2](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Triple2.java)  
+• [Exam_Triple](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Triple.java)  
+• [Exercise_Triple1](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Triple1.java)  
+• [Exercise_Triple2](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Triple2.java)  
     
 # 대입연산자  
   - 복합 대입 연산자 +=, -=, *=, /=, %=  
@@ -71,8 +71,8 @@
      - A >>= 10 ➡️ A = A >> 10 우측쉬프트 복합대입  
      - A <<= 10 ➡️ A = A << 10 좌측쉬프트 복합대입  
      
-•[Exam_Compound](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Compound.java)  
-•[Exam_Comparison](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Comparison.java)  
+• [Exam_Compound](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Compound.java)  
+• [Exam_Comparison](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Comparison.java)  
 
 # 연산자의 우선순위  
   - 괄호의 우선순위가 제일 높다.  
