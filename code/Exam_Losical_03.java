@@ -2,18 +2,18 @@ package com.kh.operator;
 
 import java.util.Scanner;
 
-public class Exam_Losical_03 {
+public class Exam_Logical_03 {
 
 	public static void main(String[] args) {
-		// ÀÔ·ÂÇÑ ¹®ÀÚ °ªÀÌ ´ë¹®ÀÚÀÎÁö È®ÀÎÇÏ¿© °á°ú Ãâ·ÂÇÏ±â
+		// ìž…ë ¥í•œ ë¬¸ìž ê°’ì´ ëŒ€ë¬¸ìžì¸ì§€ í™•ì¸í•˜ì—¬ ê²°ê³¼ ì¶œë ¥í•˜ê¸°
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë¬¸ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 		char ch = sc.next().charAt(0);
 		
 		boolean c = (ch >= 65) && (ch <= 90);
 		
-		System.out.println("ÀÔ·ÂÇÑ °ªÀº ´ë¹®ÀÚÀÏ±î¿ä? : " + c);
+		System.out.println("ìž…ë ¥í•œ ê°’ì€ ëŒ€ë¬¸ìžì¼ê¹Œìš”? : " + c);
 	}
 
 }
