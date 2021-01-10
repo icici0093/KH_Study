@@ -42,7 +42,7 @@
   
 • [Exam_Logical_01](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Logical_01.java)  
 • [Exam_Logical_02](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Logical_02.java)  
-• [Exam_Logical_03](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Logical_03.java)  
+• [Exam_Logical_03](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Losical_03.java)  
 
 # 삼항연산자  
   - 조건식을 이용하여 결과값에 따라 연산을 처리하는 방식  
