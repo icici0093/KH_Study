@@ -4,6 +4,7 @@
 ![for1](https://user-images.githubusercontent.com/68003227/104159927-91233100-5433-11eb-8e2c-dbc65f427093.png)  
 
 • [Exam_For1](https://github.com/icici0093/KH_Study/blob/main/code/Exam_For1.java)  
+• [Exam_For2](https://github.com/icici0093/KH_Study/blob/main/code/Exam_For2.java)  
 • [Exercise_For1](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For1.java)  
 • [Exercise_For2](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For2.java)  
 • [Exercise_For3](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For3.java)  
