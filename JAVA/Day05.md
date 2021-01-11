@@ -23,4 +23,4 @@
 
 • [Exam_DoWhile](https://github.com/icici0093/KH_Study/blob/main/code/Exam_DoWhile.java)  
 
-• [Exercise_Control](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Control.java)  
+• [Exercise_Control1](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Control1.java)  
