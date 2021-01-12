@@ -8,6 +8,12 @@
 • [Exercise_For1](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For1.java)  
 • [Exercise_For2](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For2.java)  
 • [Exercise_For3](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For3.java)  
+• [Exercise_For4](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For4.java)  
+• [Exercise_For5](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For5.java)  
+• [Exercise_For6](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For6.java)  
+• [Exercise_For7](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For7.java)  
+• [Exercise_For8](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For8.java)  
+• [Exercise_For9](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_For9.java)  
 
 # while문  
 ![while](https://user-images.githubusercontent.com/68003227/104159944-984a3f00-5433-11eb-95fb-ca5a84301383.png)  
