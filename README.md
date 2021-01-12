@@ -4,5 +4,5 @@
 • [Day 02](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day02.md) (변수와 자료형/자동 형변환/Scanner/출력 메소드)  
 • [Day 03](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day03.md) (연산자)  
 • [Day 04](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day04.md) (if,switch-case)  
-• [Day 05](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day05.md) (for, while, do-while)
-• [Day 06](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day06.md) (break, continue, 난수)
+• [Day 05](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day05.md) (for, while, do-while)  
+• [Day 06](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day06.md) (break, continue, 난수)  
