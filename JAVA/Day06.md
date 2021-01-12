@@ -12,7 +12,7 @@
   - 반복문 실행시 continue 아래 부분은 실행하지 않고 반복문을 다시 실행  
     (for 문의 증감식으로 이동)  
 
-• [Exam_Contunue1](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Continue1.java)  
+• [Exam_Continue1](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Continue1.java)  
     
 # 난수  
  - 난수란 무엇인가?  
