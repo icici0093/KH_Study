@@ -5,3 +5,4 @@
 • [Day 03](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day03.md) (연산자)  
 • [Day 04](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day04.md) (if,switch-case)  
 • [Day 05](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day05.md) (for, while, do-while)
+• [Day 06](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day06.md) (break, continue, 난수)
