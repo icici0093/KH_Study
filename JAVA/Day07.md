@@ -51,8 +51,8 @@
       int[] arr2 = arr1;  
   - 깊은 복사 : 다른 객체를 생성하여 새로운 객체에 데이터 내용을 복사하는 것  
     - for문을 이용한 1:1복사  
-      System.arraycopy()메소드를 이용한 복사  
-      clone()메소드를 이용한 복사  
+    - System.arraycopy()메소드를 이용한 복사  
+    - clone()메소드를 이용한 복사  
         
 • [Exam_Array1](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Array1.java)  
 • [Exam_Array2](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Array2.java)  
