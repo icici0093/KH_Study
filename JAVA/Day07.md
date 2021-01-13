@@ -26,4 +26,43 @@
   **'배열이름.lengh'는 배열의 크기를 알려준다.**  
   
   - 방법 1. 인덱스를 이용한 직접 값 기록  
-    예) 
+    예) arr[0] = 1;  
+       arr[1] = 2;  
+       arr[2] = 3;  
+  - 방법 2. for문을 이용  
+    예) for(int i = 0; i < arr.length; i++){  
+          arr[i] = i + 1;  
+        }  
+    초기화 할 리터럴이 일정 규칙으로 증가한다면, 반복문의 index를 통해 배열에 값을 기록할 수 있다.  
+
+# 배열값 출력  
+  - 배열에 저장된 값을 호출(출력)하려면 인덱스를 이용  
+  arr[인덱스번호]  
+  - arr[인덱스번호]가 하나의 변수명이라고 생각하면 된다.  
+  출력 : System.out.println(arr[인덱스번호]);  
+        for(int i = 0; i < 배열이름.length; i++)  
+        {  
+            System.out.println(배열이름[i]);  
+         }  
+
+# 배열복사  
+  - 얕은 복사 : 객체의 주소값만 가져와 참조형변수에 저장하고 하나의 객체를 두 변수가 참조하고 있는 것  
+    - int[] arr1 = new int[4]  
+      int[] arr2 = arr1;  
+  - 깊은 복사 : 다른 객체를 생성하여 새로운 객체에 데이터 내용을 복사하는 것  
+    - for문을 이용한 1:1복사  
+      System.arraycopy()메소드를 이용한 복사  
+      clone()메소드를 이용한 복사  
+        
+• [Exam_Array1](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Array1.java)  
+• [Exam_Array2](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Array2.java)  
+• [Exam_Array3](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Array3.java)  
+• [Exam_Array4](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Array4.java)  
+• [Exam_Array5](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Array5.java)  
+• [Exam_Array6](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Array6.java)  
+
+• [Exercise_Array1](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Array1.java)  
+• [Exercise_Array2](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Array2.java)  
+• [Exercise_Array3](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Array3.java)  
+         
+         
