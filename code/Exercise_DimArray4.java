@@ -3,6 +3,11 @@ package com.kh.dimarray;
 public class Exercise_DimArray4 {
 
 	public static void main(String[] args) {
+		//1  2  3  4  5 
+		//10  9  8  7  6 
+		//11 12 13 14 15 
+		//20 19 18 17 16 
+		//21 22 23 24 25 
 		int[][] arrs = new int[5][5];
 		int k = 1;
 		for(int i = 0; i < arrs.length; i++) {
