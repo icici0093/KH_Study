@@ -1,4 +1,4 @@
-### Day 08(2차원 배열)  
+### Day 08(정렬/2차원 배열)  
 
 # 정렬  
 • [Exam_ArraySort1](https://github.com/icici0093/KH_Study/blob/main/code/Exam_ArraySort1.java)  
