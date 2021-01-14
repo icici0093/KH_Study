@@ -7,4 +7,4 @@
 • [Day 05](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day05.md) (for, while, do-while)  
 • [Day 06](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day06.md) (break, continue, 난수)  
 • [Day 07](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day07.md) (배열)  
-• [Day 08](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day08.md) (2차원 배열)  
+• [Day 08](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day08.md) (정렬/2차원 배열)  
