@@ -24,6 +24,7 @@
 		calcNumPrint();  
 
 • [Exam_Method1](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Method1.java)  
+• [StudentProgram](https://github.com/icici0093/KH_Study/blob/main/code/StudentProgram.java)  
 
 # 메소드의 호출  
   - 매개변수 있는 경우 : 참조형 변수명.매소드명(매개변수);  
@@ -42,3 +43,7 @@
 	존재하지 않는 파일을 읽으려고 할 때
 	정수 입력을 기다리는 코드가 실행되고 있는데 문자가 입력된 경우 
   - 자바 코드 예외 처리 가능  
+  
+• [Exam_Exception1](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Exception1.java)  
+• [Exam_Exception2](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Exception2.java)  
+• [Exam_Exception3](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Exception3.java)  
