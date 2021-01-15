@@ -25,6 +25,7 @@
 
 • [Exam_Method1](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Method1.java)  
 • [StudentProgram](https://github.com/icici0093/KH_Study/blob/main/code/StudentProgram.java)  
+• [Motel_Program](https://github.com/icici0093/KH_Study/blob/main/code/Motel_Program.java)  
 
 # 메소드의 호출  
   - 매개변수 있는 경우 : 참조형 변수명.매소드명(매개변수);  
