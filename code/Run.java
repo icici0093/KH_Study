@@ -1,17 +1,22 @@
-package org.kh.oop;
+package net.kh.member.controller;
 
-import java.util.Scanner;
+import org.kh.oop.Student;
 
 public class Run {
 
 	public static void main(String[] args) {
-//		new Person().introduce();
-		Person p = new Person();
-		Scanner sc = new Scanner(System.in);
-		System.out.print("나이 입력 : ");
-		p.age = sc.nextInt();
-		System.out.print("이름 입력 : ");
-		p.name = sc.next();
-		p.introduce();
+		Student student = new Student();
+		student.setName("홍길동");
+		student.setKor(100);
+		student.setEng(100);
+		student.setMath(100);
+		System.out.println(student.getName() + " " +
+				student.getKor() + " " + student.getEng() + " " 
+				+ student.getMath());
+		
+		Student student2 = new Student("홍길동",100,100,100);
+		System.out.println(student2.getName() + " " +
+				student2.getKor() + " " + student2.getEng() + " " 
+				+ student2.getMath());
 	}
 }
