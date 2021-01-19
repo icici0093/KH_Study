@@ -35,7 +35,7 @@
   - 단일상속(Single inheritance)  
     - 자바에서는 다중상속을 지원하지 않음! **단일상속만을 지원**함  
 
-# 오버라이딩(overriding)  
+# 오버라이딩(Overriding)  
   - 자식 클래스가 상속받은 부모 메소드를 재작성하는 것  
   - 부모가 제공하는 기능을 자식이 일부 고쳐 사용하겠다는 의미, 후손객체를 통해 실행 시 **후손것이 우선권을 가짐**  
   - 메소드 헤드라인 위에 반드시 Annotation 표시 (@Override)  
@@ -56,6 +56,8 @@
   - abstract 메소드의 접근제어자가 private일 수 없다.  
 
 ![Overriding](https://user-images.githubusercontent.com/68003227/105010920-a9243180-5a7f-11eb-83ea-ba0cc7681754.png)  
+• [SampleProgram](https://github.com/icici0093/KH_Study/blob/main/code/SampleProgram.java)  
+
   
 | Overriding(재정의)                                 | Overloading(다중정의) |
 |--------------------------------------------------|-------------------------------------:|
@@ -68,7 +70,6 @@
   
 • [Exam_Parent](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Parent.java)  
 • [Exam_Super](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Super.java)  
-• [SampleProgram](https://github.com/icici0093/KH_Study/blob/main/code/SampleProgram.java)  
 
 • [KhStudent](https://github.com/icici0093/KH_Study/blob/main/code/KhStudent.java)    
 • [TestProgram](https://github.com/icici0093/KH_Study/blob/main/code/TestProgram.java)    
