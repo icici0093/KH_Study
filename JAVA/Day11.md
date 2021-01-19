@@ -45,20 +45,37 @@
     3. **리턴 타입이 동일**해야 함  
     4. private 메소드의 오버라이딩은 불가능  
     
-|    |right   |left    |center
-|----|-------:|:-------|:------:
-|row1|data    |data    |data
-|row2|data2-1 |data2-2 |data2-3 
-|row3|data 3-1|data 3-2|data 3-3
+|대상   |                       사용 가능한 제어자  |
+|------|-------------------------------------:|
+|클래스  |public, (default), final, abstract    |
+|메소드  |모든 접근 제어자, final, abstract, static | 
+|변수   |모든 접근 제어자, final, static           |
+|지역변수|final                                 |  
+  - 메소드에 static과 abstract를 함께 사용할 수 없다.  
+  - 클래스에 abstract와 final을 동시에 사용할 수 없다.  
+  - abstract 메소드의 접근제어자가 private일 수 없다.  
 
 ![Overriding](https://user-images.githubusercontent.com/68003227/105010920-a9243180-5a7f-11eb-83ea-ba0cc7681754.png)  
   
+| Overriding(재정의)                                 | Overloading(다중정의) |
+|--------------------------------------------------|-------------------------------------:|
+| 메소드를 하위 클래스에서 정의                           | 메소드를 같은 클래스에서 정의                |
+| 메소드 이름 동일                                     | 메소드 이름 동일                         | 
+| 매개변수(개수 및 데이터 타입) 동일                       | 매개변수(개수나 데이터 타입) 다름            |
+| 리턴 타입 동일                                      | 리턴 타입 다를 수 있음                    |  
+| 접근 제어자 : 상위 메소드의 접근 범위보다 넓거나 같아야 함    | 접근 제어자 : X                          |
+| 예외처리 : 같은 예외 형식이거나 더 구체적인 예외 형식이어야 함 | 예외처리 : X                            |
   
-  
-  
-  
-  
-  
-  
+• [Exam_Parent](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Parent.java)  
+• [Exam_Super](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Super.java)  
+• [SampleProgram](https://github.com/icici0093/KH_Study/blob/main/code/SampleProgram.java)  
+
+• [KhStudent](https://github.com/icici0093/KH_Study/blob/main/code/KhStudent.java)    
+• [TestProgram](https://github.com/icici0093/KH_Study/blob/main/code/TestProgram.java)    
+
+• [StudentRun2](https://github.com/icici0093/KH_Study/blob/main/code/StudentRun2.java)  
+• [StudentConsole](https://github.com/icici0093/KH_Study/blob/main/code/StudentConsole.java)  
+• [StudentList2](https://github.com/icici0093/KH_Study/blob/main/code/StudentList2.java)  
+• [Student2](https://github.com/icici0093/KH_Study/blob/main/code/Student2.java)  
 ![Student 작동 원리](https://user-images.githubusercontent.com/68003227/105010909-a6294100-5a7f-11eb-9553-58c596db9aa0.png)
 
