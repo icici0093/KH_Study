@@ -9,4 +9,4 @@
 • [Day 07](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day07.md) (배열)  
 • [Day 08](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day08.md) (정렬,2차원 배열)  
 • [Day 09](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day09.md) (메소드, 예외처리)  
-• [Day 10](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day10.md) (객체, 클래스, 필드, 메소드, 생성자)  
+• [Day 10](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day10.md) (객체, 클래스, 필드, 생성자)  
