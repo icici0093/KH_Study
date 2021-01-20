@@ -31,7 +31,9 @@
       //참일때 처리할 내용  
       //해당 클래스 타입으로 down casting  
       }  
-      
+
+• [Exam_Poly](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Poly.java)  
+
 # 바인딩  
   - 실제 실행할 메소드 코드와 호출하는 코드를 연결시키는 것  
   - 프로그램이 실행되기 전에 컴파일이 되면서 모든 메소드를 정적 바인딩 됨  
@@ -77,15 +79,38 @@
 |객체|객체 생성 불가|객체 생성 불가| 
 |용도|reference 타입|refrence 타입|
 
+• [ManageStudent](https://github.com/icici0093/KH_Study/blob/main/code/ManageStudent.java)  
+• [StudentProgram](https://github.com/icici0093/KH_Study/blob/main/code/StudentProgram.java)  
 
+• [BTotal](https://github.com/icici0093/KH_Study/blob/main/code/BTotal.java)  
+• [CTotal](https://github.com/icici0093/KH_Study/blob/main/code/CTotal.java)  
+• [TotalConsole](https://github.com/icici0093/KH_Study/blob/main/code/TotalConsole.java)  
+• [TotalInterface](https://github.com/icici0093/KH_Study/blob/main/code/TotalInterface.java)  
+• [TotalRun](https://github.com/icici0093/KH_Study/blob/main/code/TotalRun.java)  
 
+• [Exam_Parent](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Parent.java)  
+• [Exam_Super](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Super.java)  
+• [SampleProgram](https://github.com/icici0093/KH_Study/blob/main/code/SampleProgram.java)  
 
+• [ITBankStudent](https://github.com/icici0093/KH_Study/blob/main/code/ITBankStudent.java)  
+• [KhStudent2](https://github.com/icici0093/KH_Study/blob/main/code/KhStudent2.java)  
+• [Student3](https://github.com/icici0093/KH_Study/blob/main/code/Student3.java)  
+• [StudentConsole2](https://github.com/icici0093/KH_Study/blob/main/code/StudentConsole2.java)  
+• [StudentList3](https://github.com/icici0093/KH_Study/blob/main/code/StudentList3.java)  
+• [StudentRun3](https://github.com/icici0093/KH_Study/blob/main/code/StudentRun3.java)  
+• [TestProgram2](https://github.com/icici0093/KH_Study/blob/main/code/TestProgram2.java)  
 
+• [A](https://github.com/icici0093/KH_Study/blob/main/code/A.java)  
+• [B](https://github.com/icici0093/KH_Study/blob/main/code/B.java)  
+• [Program](https://github.com/icici0093/KH_Study/blob/main/code/Program.java)  
+• [X](https://github.com/icici0093/KH_Study/blob/main/code/X.java)  
 
+• [Leopard](https://github.com/icici0093/KH_Study/blob/main/code/Leopard.java)  
+• [Lion](https://github.com/icici0093/KH_Study/blob/main/code/Lion.java)  
+• [Predator](https://github.com/icici0093/KH_Study/blob/main/code/Predator.java)  
+• [Tiger](https://github.com/icici0093/KH_Study/blob/main/code/Tiger.java)  
+• [ZooKeeper](https://github.com/icici0093/KH_Study/blob/main/code/ZooKeeper.java)  
+• [ZooProgram](https://github.com/icici0093/KH_Study/blob/main/code/ZooProgram.java)  
 
-
-      
-      
-      
       
       
