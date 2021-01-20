@@ -24,7 +24,7 @@ class Parent{
 	}
 	
 	@Override
-	public String toString() {
+	public String toString() { // 객체의 고유값을 저장해주는 메소드
 		// TODO Auto-generated method stub
 		return this.money+"";
 	}
