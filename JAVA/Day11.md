@@ -74,10 +74,10 @@
 • [KhStudent](https://github.com/icici0093/KH_Study/blob/main/code/KhStudent.java)    
 • [TestProgram](https://github.com/icici0093/KH_Study/blob/main/code/TestProgram.java)    
 
-• [StudentRun2](https://github.com/icici0093/KH_Study/blob/main/code/StudentRun2.java)  
+• [StudentRun](https://github.com/icici0093/KH_Study/blob/main/code/StudentRun2.java)  
 • [StudentConsole](https://github.com/icici0093/KH_Study/blob/main/code/StudentConsole.java)  
-• [StudentList2](https://github.com/icici0093/KH_Study/blob/main/code/StudentList2.java)  
-• [Student2](https://github.com/icici0093/KH_Study/blob/main/code/Student2.java)  
+• [StudentList](https://github.com/icici0093/KH_Study/blob/main/code/StudentList2.java)  
+• [Student](https://github.com/icici0093/KH_Study/blob/main/code/Student2.java)  
 
 # Student 작동 원리
 ![Student 작동 원리](https://user-images.githubusercontent.com/68003227/105010909-a6294100-5a7f-11eb-9553-58c596db9aa0.png)
