@@ -34,12 +34,12 @@
       - catch : 해당하는 exception 처리를 기술. 여러개의 exception 처리 가능(상속관계 고려)  
       - finally : exception 발생 여부에 관계없이 꼭 처리해야 하는 로직을 구현(System.exit(0)을 만나면 무조건 프로그램 종료)  
       
-• [Exam_Exception4](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Exception4.java)  
-• [Exam_Exception5](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Exception5.java)  
-• [Exam_Exception6](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Exception6.java)  
-• [Exam_Exception6_2](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Exception6_2.java)  
-• [Exam_Finally](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Finally.java)  
-• [Run](https://github.com/icici0093/KH_Study/blob/main/code/Run.java)  
+• [Exam_Exception4](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Exam_Exception4.java)  
+• [Exam_Exception5](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Exam_Exception5.java)  
+• [Exam_Exception6](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Exam_Exception6.java)  
+• [Exam_Exception6_2](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Exam_Exception6_2.java)  
+• [Exam_Finally](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Exam_Finally.java)  
+• [Run](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Run.java)  
       
 # 입출력(I/O)  
   - Input과 Output의 약자로, 컴퓨터 내부 또는 외부 장치와 프로그램간의 데이터를 주고받는 것  
