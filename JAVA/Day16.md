@@ -37,9 +37,12 @@
 • [Exam_Exception4](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Exam_Exception4.java)  
 • [Exam_Exception5](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Exam_Exception5.java)  
 • [Exam_Exception6](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Exam_Exception6.java)  
+throws ⬇️⬇️  
 • [Exam_Exception6_2](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Exam_Exception6_2.java)  
-• [Exam_Finally](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Exam_Finally.java)  
+throws ⬇️⬇️  
 • [Run](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Run.java)  
+• [Exam_Finally](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Exception/src/com/kh/exception/Exam_Finally.java)  
+
       
 # 입출력(I/O)  
   - Input과 Output의 약자로, 컴퓨터 내부 또는 외부 장치와 프로그램간의 데이터를 주고받는 것  
