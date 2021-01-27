@@ -78,11 +78,11 @@ throws ⬇️⬇️
 
 # Writer  
   - 문자 기반 출력 스트림의 최상위 클래스로 추상클래스  
-![Exam_OutputStream](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/stream/Exam_OutputStream.java)  
-![Exam_Write](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/writer/Exam_Write.java)  
-![Exam_WriteChar](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/stream/Exam_WriteChar.java)  
-![Exam_WriteCharOff](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/stream/Exam_WriteCharOff.java)  
-![Exam_WriteStr](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/stream/Exam_WriteStr.java)  
+• [Exam_OutputStream](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/stream/Exam_OutputStream.java)  
+• [Exam_Write](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/writer/Exam_Write.java)  
+• [Exam_WriteChar](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/stream/Exam_WriteChar.java)  
+• [Exam_WriteCharOff](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/stream/Exam_WriteCharOff.java)  
+• [Exam_WriteStr](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/stream/Exam_WriteStr.java)  
 
 # File  
   - 파일 시스템의 파일을 표현하는 클래스  
@@ -114,12 +114,12 @@ throws ⬇️⬇️
     bis.read();  
   
   
-![Exam_File](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/fileexam/Exam_File.java)  
-![Exam_File2](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/fileexam/Exam_File2.java)  
+• [Exam_File](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/fileexam/Exam_File.java)  
+• [Exam_File2](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/fileexam/Exam_File2.java)  
 
-![Exam_FileInputStream](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/filestream/Exam_FileInputStream.java)  
-![Exam_FileOutputStream](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/filestream/Exam_FileOutputStream.java)  
-![Excercise_ByteStream](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/filestream/Excercise_ByteStream.java)  
+• [Exam_FileInputStream](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/filestream/Exam_FileInputStream.java)  
+• [Exam_FileOutputStream](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/filestream/Exam_FileOutputStream.java)  
+• [Excercise_ByteStream](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/filestream/Excercise_ByteStream.java)  
   
 # 직렬화  
   - Serializable 인터페이스를 implements하여 구현  
