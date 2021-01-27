@@ -57,9 +57,18 @@ throws ⬇️⬇️
   - 바이트 기반 입력 스트림의 최상위 클래스로 추상클래스  
 ![InputStream](https://user-images.githubusercontent.com/68003227/105964394-76082080-60c5-11eb-92d6-10cc1371849b.png)  
 
+• [Exam_Read](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/inputstream/Exam_Read.java)  
+• [Exam_ReadByte](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/inputstream/Exam_ReadByte.java)  
+• [Exam_ReadByteOff](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/inputstream/Exam_ReadByteOff.java)  
+
 # OutputStream  
   - 바이트 기반 출력 스트림의 최상위 클래스로 추상클래스  
 ![OutputStream](https://user-images.githubusercontent.com/68003227/105964404-799ba780-60c5-11eb-8e68-28184553f33c.png)  
+
+• [Exam_Write](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/outputstream/Exam_Write.java)  
+• [Exam_Write2](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/outputstream/Exam_Write2.java)  
+• [Exam_WriteByte](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/outputstream/Exam_WriteByte.java)  
+• [Exam_WriteByteOff](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/outputstream/Exam_WriteByteOff.java)  
 
 # Reader  
   - 문자 기반 입력 스트림의 최상위 클래스로 추상클래스  
