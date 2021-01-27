@@ -72,12 +72,16 @@ throws ⬇️⬇️
 
 # Reader  
   - 문자 기반 입력 스트림의 최상위 클래스로 추상클래스  
-![Exam_Read](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/reader/Exam_Read.java)  
-![Exam_ReadChar](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/reader/Exam_ReadChar.java)  
-![Exam_ReadCharOff](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/reader/Exam_ReadCharOff.java)  
+![Reader](https://user-images.githubusercontent.com/68003227/105964407-7a343e00-60c5-11eb-851a-f69f196bfbbe.png)  
+  
+• [Exam_Read](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/reader/Exam_Read.java)  
+• [Exam_ReadChar](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/reader/Exam_ReadChar.java)  
+• [Exam_ReadCharOff](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/reader/Exam_ReadCharOff.java)  
 
 # Writer  
   - 문자 기반 출력 스트림의 최상위 클래스로 추상클래스  
+![Writer](https://user-images.githubusercontent.com/68003227/105964411-7b656b00-60c5-11eb-962b-c7d6fb65d781.png)  
+
 • [Exam_OutputStream](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/stream/Exam_OutputStream.java)  
 • [Exam_Write](https://github.com/icici0093/KH_Study/blob/main/code/Day_17_Stream/src/com/kh/writer/Exam_Write.java)  
 • [Exam_WriteChar](https://github.com/icici0093/KH_Study/blob/main/code/Day_16_Stream/src/com/kh/stream/Exam_WriteChar.java)  
