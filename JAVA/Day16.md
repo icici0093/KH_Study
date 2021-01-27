@@ -54,7 +54,60 @@ throws ⬇️⬇️
   - 하나의 스트림으로 입출력을 동시에 수행할 수 없고, 입출력을 동시에 수행하려면 2개의 스트림이 필요(단방향 통신)  
   
 # InputStream  
-  - 바이트 기반 입력 스트림의 최상위 클래스로 추상클래스임  
+  - 바이트 기반 입력 스트림의 최상위 클래스로 추상클래스  
+![InputStream](https://user-images.githubusercontent.com/68003227/105964394-76082080-60c5-11eb-92d6-10cc1371849b.png)  
+
+# OutputStream  
+  - 바이트 기반 출력 스트림의 최상위 클래스로 추상클래스  
+![OutputStream](https://user-images.githubusercontent.com/68003227/105964404-799ba780-60c5-11eb-8e68-28184553f33c.png)  
+
+# Reader  
+  - 문자 기반 입력 스트림의 최상위 클래스로 추상클래스  
+![Reader](https://user-images.githubusercontent.com/68003227/105964407-7a343e00-60c5-11eb-851a-f69f196bfbbe.png)  
+
+# Writer  
+  - 문자 기반 출력 스트림의 최상위 클래스로 추상클래스  
+![Writer](https://user-images.githubusercontent.com/68003227/105964411-7b656b00-60c5-11eb-962b-c7d6fb65d781.png)  
+
+# File  
+  - 파일 시스템의 파일을 표현하는 클래스  
+  - 파일의 크기, 속성, 이름 등 정보를 제공하며 생성 및 삭제 기능도 제공  
+  - File file = new File("c:\\temp\\file.txt");
+  
+# 보조스트림(프로세스 스트림)  
+  - 스트림의 기능을 향상시키거나 새로운 기능을 추가하기 위해 사용  
+  - **실제 데이터를 주고받는 스트림이 아니기 때문에 입출력 처리를 할 수 없고**, 스트림을 먼저 생성한 다음 이를 이용해서 **보조스트림을 생성**해야 함  
+  - 종류 :  
+    - 문자 변환(Input/OutputStreamReader) :  
+      - 소스 스트림이 바이트 기반 스트림이지만 데이터가 문자일 경우 사용  
+      - Reader와 Writer는 문자 단위로 입출력을 하기 때문에 데이터가 문자인 경우에 바이트 기반 스트림보다 편리하게 사용 가능  
+    - 입출력 성능 향상(BufferedInput/OutputStream) :  
+      - 입출력 소스와 직접 작업하지 않고 버퍼(Buffer)에 데이터를 모아 한꺼번에 작업을 하여 실행 성능이 향상된다(입출력 횟수 줄임)  
+    - 기본 데이터 타입 출력(DataInput/OutputStream) :  
+      - 기본 자료형별 데이터의 읽고 쓰기가 가능하도록 기능을 제공  
+      - 입력된 자료형의 순서와 출력될 자료형의 순서가 일치해야 함  
+    - 객체 입출력(ObjectInput/OutputStream) :  
+      - 객체를 파일 또는 네트워크로 입출력 할 수 있는 기능을 제공  
+      - 객체는 문자가 아니므로 바이트 기반 스트림으로 데이터를 변경해 주는 작업인 직렬화를 반드시 해야 함  
+      
+  - 사용 예시 )  
+    // 기반 스트림 생성  
+    FileInputStream fis = new FileInputStream("sample.txt");  
+    // 보조스트림 생성  
+    BufferedInputStream bis = new BufferedInputStream(fis);  // new BufferedInputStream(new FileInputStream(“sam.txt”));와 같음  
+    // 보조스트림으로부터 데이터 읽어옴  
+    bis.read();  
+  
+# 직렬화  
+  - Serializable 인터페이스를 implements하여 구현  
+  - 객체 직렬화시 private 필드를 포함한 모든 필드를 바이트로 변환하지만 transient키워드를 사용한 필드는 직렬화에서 제외  
+  - 역직렬화 :  
+    - 직렬화된 객체를 역직렬화 할 때는 직렬화 했을 때와 같은 클래스를 사용  
+    - 하지만 클래스의 이름이 같더라도 클래스의 내용이 변경된 경우 역직렬화에 실패함  
+  
+  
+  
+  
   
   
     
