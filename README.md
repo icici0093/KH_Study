@@ -13,8 +13,8 @@
 • [Day 11](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day11.md) (상속)  
 • [Day 12](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day12.md) (다형성, 인터페이스)  
 • [Day 13](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day13.md) (컬렉션, 제네릭스)  
-• [Day 15](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day13.md) (API)  
-• [Day 16](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day13.md) (예외처리, 입출력)  
-• [Day 17](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day13.md) (네트워크 프로그래밍)  
+• [Day 15](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day15.md) (API)  
+• [Day 16](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day16.md) (예외처리, 입출력)  
+• [Day 17](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day17.md) (네트워크 프로그래밍)  
 
 
