@@ -58,6 +58,6 @@
 • [4. 영역 관련 태그](https://github.com/icici0093/KH_Study/blob/main/HTML/workspace/KH_HTML_CSS/4.areaTag.html)  
 • [5. 미디어 관련 태그](https://github.com/icici0093/KH_Study/blob/main/HTML/workspace/KH_HTML_CSS/5.multimediaTag.html)  
 
-• [exercise_table.html](https://github.com/icici0093/KH_Study/blob/main/HTML/workspace/KH_HTML_CSS/exercise/exercise_table.html)  
+• [exercise_table](https://github.com/icici0093/KH_Study/blob/main/HTML/workspace/KH_HTML_CSS/exercise/exercise_table.html)  
     
   
