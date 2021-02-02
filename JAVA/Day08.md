@@ -1,6 +1,6 @@
-### Day 08(정렬/2차원 배열)  
+# Day 08(정렬/2차원 배열)  
 
-# 정렬  
+### 정렬  
 • [Exam_ArraySort1](https://github.com/icici0093/KH_Study/blob/main/code/Exam_ArraySort1.java)  
 • [Exam_ArraySort2](https://github.com/icici0093/KH_Study/blob/main/code/Exam_ArraySort2.java)  
 
@@ -35,14 +35,14 @@
   - 1차원 배열 안에 다른 배열을 넣은 것  
   - 배열은 저장된 값마다 인덱스 번호 두 개로 설정됨 (앞번호는 행, 뒷번호는 열[n][a])  
 
-# 선언과 할당  
+### 선언과 할당  
   1. 자료형[][] 변수이름;  
   2. 자료형 변수이름 [][];  
   -> 자료형[][] 변수이름 = new 자료형[행크기][열크기];  
   예) int arr[][];  
       int[][] arr = new int[2][3];  
 
-# 초기화  
+### 초기화  
   - 선언과 동시에 사용자 초기화  
   예) int[][] arr=**{**{1, 2, 3, 4}, {5, 6, 7, 8}**}**;  
       String arr[][]=**{**{"차", "장"}, {"배", "김"}**}**;  
