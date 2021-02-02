@@ -19,4 +19,4 @@
 • [Day 17](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day17.md) (네트워크 프로그래밍)  
 
 ## HTML  
-• [Day 01](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day01.md) ()  
+• [Day 01](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day01.md) (태그)  
