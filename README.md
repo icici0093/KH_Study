@@ -1,5 +1,6 @@
-### KH 수업 내용 정리
+# KH 수업 내용 정리  
 
+## JAVA  
 • [Day 01](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day01.md) (용어정리/특징/작동원리/환경변수)  
 • [Day 02](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day02.md) (변수와 자료형/자동 형변환/Scanner/출력 메소드)  
 • [Day 03](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day03.md) (연산자)  
@@ -17,4 +18,5 @@
 • [Day 16](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day16.md) (예외처리, 입출력)  
 • [Day 17](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day17.md) (네트워크 프로그래밍)  
 
-
+## HTML  
+• [Day 01](https://github.com/icici0093/KH_Study/blob/main/JAVA/Day01.md) ()  
