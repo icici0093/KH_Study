@@ -1,6 +1,6 @@
-### Day 06  
+# Day 06  
 
-# 분기문 - break문  
+### 분기문 - break문  
   break  
   - 반복문을 빠져나가는 구문  
     break구문이 있는 곳에서 곧장 반복문을 빠져 나옴  
@@ -14,7 +14,7 @@
 
 • [Exam_Continue1](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Continue1.java)  
     
-# 난수  
+### 난수  
  - 난수란 무엇인가?  
     - 난수  
      - 임의의 값 또는 무작위로 만들어지는 알 수 없는 값  
