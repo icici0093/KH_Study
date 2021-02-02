@@ -1,6 +1,6 @@
-### Day 02 변수와 자료형  
+# Day 02 변수와 자료형  
 
-# Data와 정보  
+### Data와 정보  
   - 데이터(Data)  
     - 데이터란 관찰의 결과로 나타난 정량적 혹은 정성적인 **실제 값**을 의미한다.  
   - 정보(Information)  
@@ -9,7 +9,7 @@
   
 • [Exam_01](https://github.com/icici0093/KH_Study/blob/main/code/Exam_01.java)  
  
-# 변수의 선언 / 변수의 초기화  
+### 변수의 선언 / 변수의 초기화  
   - 메모리 상에 데이터를 저장할 수 있는 공간을 할당하는 것  
     int smallNum;  
   - 변수를 사용하기 전에 처음으로 값을 저장하는 것  
@@ -31,7 +31,7 @@
     3. 상수의 이름은 대문자, 단어는 _로 구분한다.  
       예) MAX_VALUE  
       
-# 변수의 자료형  
+### 변수의 자료형  
   - 정수 : 소수점을 포함하지 않은 수 (음수, 0, 양수)  
   - 소수 : 소수점을 포함한 수 (소수)  
   - 문자 : ' '안에 표현한 문자  
@@ -53,21 +53,21 @@
     
 • [Exercise_01](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_01.java)  
 
-# 상수  
+### 상수  
   상수란?  
   - 수학에서 변하지 않는 값을 의미하고, 컴퓨터에서는 **한번만 저장할 수 있는 공간**으로 초기화 이후 다른 데이터값을 대입할 수 없다.  
     final int AGE = 20;  
     
-# 리터럴  
+### 리터럴  
   리터럴이란?
    - 변수에 대입되는 값 자체를 의미  
    
-# 컴퓨터의 동작 원칙  
+### 컴퓨터의 동작 원칙  
   1. 반드시 같은 데이터타입 간에 연산을 한다.  
   2. 반드시 동일한 데이터타입의 값을 동일한 데이터타입의 변수에 대입한다.  
   3. 결과값 또한 동일한 데이터타입의 값을 가진다.  
     위의 기본원칙이 지켜지지 않을 경우 **프로그래밍언어가 암묵적으로, 혹은 사용자에 의해 명시적으로 형변환을 해야한다.**  
-# 자동 형변환이 일어나는 경우  
+### 자동 형변환이 일어나는 경우  
   1. 작은 데이터 타입에서 큰 데이터 타입으로는 자동 형변환이 가능하다.  
   2. 정수형은 실수형으로 자동 형변환이 가능하다.  
   3. char형은 int형으로 자동 형변환이 가능하다.  
@@ -83,7 +83,7 @@
 • [Exam_Casting](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Casting.java)  
 
 
-# 입력 Scanner Class  
+### 입력 Scanner Class  
   - 사용자로부터 입력되는 정수, 실수, 문자열을 처리하는 클래스  
   - 사용할 떈 Scanner Class import 작성  
     - import.java.util.Scanner;  
@@ -99,7 +99,7 @@
 • [Exam_Scanner](https://github.com/icici0093/KH_Study/blob/main/code/Exam_Scanner.java)  
 • [Exercise_Character](https://github.com/icici0093/KH_Study/blob/main/code/Exercise_Character.java)  
 
-# 출력 메소드  
+### 출력 메소드  
   - System.out.print(); : ()안의 변수, 문자, 숫자, 논리값을 모니터에 출력해주는 메소드  
   - System.out.println(); : print와 동일하게 출력해주지만 출력 후 자동으로 출력창에 줄바꿈을 해주는 메소드  
   - System.out.printf("%형식", 변수); : 정해져있는 형식에 맞춰서 그 형식에 맞는 값(변수)를 줄바꿈 하지 않고 출력  
