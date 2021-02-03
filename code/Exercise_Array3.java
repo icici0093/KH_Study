@@ -7,7 +7,7 @@ public class Exercise_Array3 {
 	public static void main(String[] args) {
 		/*
 		 * 사용자에게 주민번호를 입력받은 후 
-		 * 성별자리 이후부터 *로 저장되러 출력되도록 
+		 * 성별자리 이후부터 *로 저장되어 출력되도록 
 		 * 프로그램을 작성하시오. 
 		 * 배열 복사를 이용 
 		 */
