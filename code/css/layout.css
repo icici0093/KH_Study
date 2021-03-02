@@ -1,0 +1,23 @@
+#header{
+    height: 150px;
+    background-color: coral;
+}
+#contents{
+    height: 500px;
+    background-color: bisque;
+}
+#contents_layer1{
+    height: inherit;
+    width: 20%;
+    background-color: darkgrey;
+    float: left;
+}
+#contents_layer2{
+    height: inherit;
+    width: 80%;
+    float: left;
+}
+#footer{
+    height: 150px;
+    background-color: cadetblue;
+}

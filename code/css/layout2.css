@@ -1,0 +1,29 @@
+#header{
+    height: 150px;
+    background: #586c5c;
+}
+#contents{
+    height: 500px;
+}
+#contents_layer1{
+    height: inherit;
+    width: 15%;
+    background: #dfdcb9;
+    float: left;
+}
+#contents_layer2{
+    height: inherit;
+    width: 65%;
+    background: #a9af90;
+    float: left;
+}
+#contents_layer3{
+    height: inherit;
+    width: 20%;
+    background: #85937a;
+    float: left;
+}
+#footer{
+    height: 150px;
+    background: #202e32;
+}

@@ -1,0 +1,90 @@
+div{
+    text-align: center;
+/*
+    레이아웃 잡을때 밑그림
+    border: 1px solid black;
+    box-sizing: boder-box;
+*/
+}
+#wrapper{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    height: 150px;
+}
+#logo{
+    height: inherit; 
+    width: 25%;
+    float: left;
+    background-color: #f6bd60;
+}
+#title{
+    height: inherit;
+    width: 50%;
+    float: left;
+    background-color: #f7ede2;
+}
+#side{
+    height: inherit;
+    width: 25%;
+    float: left;
+    background-color: #f5cac3;
+}
+#navigator{
+    height: 50px;
+    border: solid;
+}
+#middle{
+    height: 500px;
+}
+#banner{
+    height: inherit;
+    width: 20%;
+    float: left;
+}
+#contents{
+    height: inherit; 
+    width: 50%;
+    float: left;
+    background-color: #f28482 ;
+}
+#loginform{
+    height: 150px;
+    width: 30%;
+    float: left;
+}
+#login-header{
+                height: 50px;
+            }
+                #login-header-layer1{
+                    height: inherit;
+                    width: 60%;
+                    float: left;
+                }
+                    #id-field{
+                        width: inherit;
+                        height: 50%;
+                    }
+                    #pw-field{
+                        width: inherit;
+                        height: 50%;
+                    }
+                #login-header-layer2{
+                    height: inherit;
+                    width: 40%;
+                    float: left;
+                }
+                    #loginBtn{
+                        width: 90%;
+                        height: 90%;
+                    }
+            #login-footer{
+                height: 30px;
+                text-align: center;
+            }
+#footer{
+    height: 150px;
+    background-color: #84a59d;
+}
