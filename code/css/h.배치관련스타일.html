@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>배치 관련 스타일</title>
+        <style>
+            .positioning{
+                border: 1px solid black;
+            }
+            .outer{
+                position: relative;
+            }
+            .first{
+                width: 300px;
+                height: 300px;
+                background: #708d81;  
+                position: relative;
+            }
+            .second{
+                width: 200px;
+                height: 200px;
+                background: #f4d58d;
+                position: absolute;
+                top: 50px;
+                left: 50px;
+            }
+            .third{
+                width: 100px;
+                height: 100px;
+                background: #bf0603;
+                position: absolute;
+                top: 100px;
+                left: 100px;
+            }5
+            .fixed-area{
+                width: 100px;
+                height: 100px;
+                background: #8d0801;
+                position: fixed;
+            }
+/*
+            .fixed-area{
+                width: 100px;
+                height: 100px;
+                background: #8d0801;
+                position: fixed;
+            }
+*/
+        </style>
+    </head>
+    <body>
+        <h1>배치 관련 스타일</h1>
+    <h3>절대위치와 상대위치</h3>
+        
+    <div class="outer">
+        <div class="positioning first"></div>
+        <div class="positioning second"></div>
+        <div class="positioning third"></div>
+    </div>
+        
+    <h3>고정위치</h3>
+    <div class="positioning fixed-area"></div>
+
+    <br><br><br><br><br><br>
+
+    <hr>
+    
+    <style>
+        .z-test{
+            width: 150px;
+            height: 100px;
+            border: 1px solid black;
+        }    
+        .wrap{
+            position: relative;
+        }
+        .z-test1{
+            background: #197278;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            z-index: 1000;
+        }
+        .z-test2{
+            background: #edddd4;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            z-index: 100;
+        }
+        .z-test3{
+            background: #c44536;
+            z-index: 1;
+        }
+    </style>
+    <h3>z-index</h3>
+    <p>페이지 안의 요소들을 순서대로 위로 쌓는 속성이다.</p>
+        
+    <div class="wrap">
+        <div class="z-test z-test1">요소1</div>
+        <div class="z-test z-test2">요소2</div>
+        <div class="z-test z-test3">요소3</div>
+    </div>
+
+    <br><br><br><br><br><br><br>
+    <hr>
+    <h3>float속성</h3>
+    <p>페이지 내의 요소의 위치를 왼쪽이나 오른쪽으로 지정하는 속성</p>
+        
+    <style>
+        .float-test{
+            border: 1px solid black;
+            width: 100px;
+            height: 50px;
+            float: left;
+        }
+    </style>
+    
+    <div class="float1">
+        <div class="float-test float-test1">111</div>
+        <div class="float-test float-test2">222</div>
+        <div class="float-test float-test3">333</div>
+        <div class="float-test float-test4">444</div>
+        <div class="float-test float-test5">555</div>
+    </div>
+        
+    <br><br>
+    <h3>화면 배치 방법 변경</h3>
+    <p>박스 요소와 인라인 요소의 속성을 변경하여 배치 방식을 변경할 수 있다. (display 속성)</p>
+        
+    <h4>블럭요소를 인라인요소로 변경</h4>
+    <pre><b>>> display:inline 테스트</b></pre>
+    <pre>인라인요소로 변경되면서 width와 height속성이 무시된다.</pre>
+    <style>
+        .block{
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            color: white;
+        }
+        .area1{
+            background: red;   
+        }
+        .area2{
+            background: orange;
+        }
+        .area3{
+            background: gold;
+        }
+        .area4{
+            background: green;
+        }
+        .area5{
+            background: blue;
+        }
+        .block-test1{
+            display: inline;
+        }
+        .block-test2{
+            display: inline-block;
+        }
+        .block-test3{
+            display: block;
+        }
+    </style>
+        
+    <div class="block block-test1 area1">첫번째 영역</div>
+    <div class="block block-test1 area2">두번째 영역</div>
+    <div class="block block-test1 area3">세번째 영역</div>
+    <div class="block block-test1 area4">네번째 영역</div>
+    <div class="block block-test1 area5">다섯번째 영역</div>
+
+    <pre><b>>> display:inline-block 테스트</b></pre>
+    <pre>영역은 인라인 요소로 변경되지만 내용은 블록요소로 지정되어 width와 height속성을 설정할 수 있다.</pre>
+    <div class="block block-test2 area1">첫번째 영역</div>
+    <div class="block block-test2 area2">두번째 영역</div>
+    <div class="block block-test2 area3">세번째 영역</div>
+    <div class="block block-test2 area4">네번째 영역</div>
+    <div class="block block-test2 area5">다섯번째 영역</div>
+
+    <h4>인라인요소를 블럭요소로 변경</h4>
+    <pre><b>>> display:block 테스트</b></pre>
+    <pre>인라인요소를 블럭요소로 변경하면 width와 height값을 지정할 수 있고 block요소로 변경이 되는 것이다.</pre>
+        
+    <span class="block block-test3 area1">첫번째 영역</span>
+    <span class="block block-test3 area2">두번째 영역</span>
+    <span class="block block-test3 area3">세번째 영역</span>
+    <span class="block block-test3 area4">네번째 영역</span>
+    <span class="block block-test3 area5">다섯번째 영역</span>
+    </body>
+</html>

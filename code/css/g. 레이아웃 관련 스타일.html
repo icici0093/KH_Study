@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <!--<h1>배치 관련 스타일</h1>
+    <h3>CSS Position</h3>
+    <pre>CSS Position의 속성값
+    1. static : 아무것도 지정하지 않은 경우 default값으로 사용됨. 
+    CSS의 Normal-flow에 따라 배치
+    offset이 적용되지 않는다.
+    2. absolute : 부모 요소(태그) 위치의 상대값에 따라 배치된다. 
+    단, 부모 요소가 static인 경우에는 조상요소의 position속성이 static이 아닐때까지 거슬러 올라가 배치된다. 
+    absolute로 정의된 요소는 CSS의 Normal-flow 흐름에서 배제된다.
+    3. relative : 자신의 원래 있어야할 위치의 상대값(offset)에 따라 배치된다. 
+    offset은 top, left, right, bottom 속성값이며 offset을 지정하지 않으면 static과 동일한 기능을 수행한다.
+    4. fixed : 브라우저의 창에 상대적인 위치(offset)에 보이도록한다. 즉, 화면 스크롤과
+    상관없이 항상 화면의 정해진 위치에 배치된다.
+    </pre>-->
+        
+        <!-- <style>
+            div{
+                width: 50%;
+                height: 200px;
+            }
+            .testDiv1{
+                background: red;
+                position: absolute;
+                top: 100px;
+            }
+            .testDiv2{
+                background: green;
+                position: absolute;
+                top: 200px;
+            }
+        </style>
+        
+        <div class="testDiv1"></div>
+        <div class="testDiv2"></div> -->
+
+        <!-- <style>
+            div{
+                width: 200px;
+                height: 200px;;
+            }
+            .testDiv1{
+                background: cornsilk;
+                position: absolute;
+            }
+            .testDiv2{
+                background: azure;
+                position: absolute;
+                top: 200px;
+            }
+            .testDiv3{
+                background: coral;
+                position: absolute;
+                top: 400px;
+            }
+            p{
+                position: absolute;
+                top: 50px;
+                left: 30px;;
+            }
+        </style>
+        <div class="testDiv1">
+            <p>Hello</p>
+        </div>
+        <div class="testDiv2">
+            <p>Good Morning</p>
+        </div>
+        <div class="testDiv3">
+            <p>Good Bye</p>
+        </div> -->
+        <style>
+            div{
+                width: 200px;
+                height: 200px;;
+            }
+            .testDiv1{
+                background: cornsilk;
+            }
+            .testDiv2{
+                background: azure;
+            }
+            .testDiv3{
+                background: coral;
+            }
+            p{
+                position: relative;
+                top: 50px;
+                left: 30px;
+            }
+            .testDiv4{
+                background: firebrick;
+                position: fixed;
+                top: 7px;
+            }
+        </style>
+        <div class="testDiv1">
+            <p>Hello</p>
+        </div>
+        <div class="testDiv2">
+            <p>Good Morning</p>
+        </div>
+        <div class="testDiv3">
+            <p>Good Bye</p>
+        </div>
+        <br><br><br><br><br><br>
+        <div class="testDiv4">
+
+        </div>
+    </body>
+</html>

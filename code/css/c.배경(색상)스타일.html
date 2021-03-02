@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>배경 색상 스타일</title>
+        <style>
+            body{
+                background-color:floralwhite;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>배경(색상) 스타일</h1>
+        <h3>background 속성 : 배경 스타일을 지정하는 속성</h3>
+        <pre>태그 { background-color : 색상명 | 16진수 | rgb | rgba; }
+        로 배경색을 지정할 수 있음</pre>
+        <hr>
+        <h3>div 배경 테스트</h3>
+        <pre>div영역을 설정하는 경우 배경색을 지정하기 위해서 div에 배경색을 별도로 지정 필요</pre>
+        <style>
+            #div-bg{
+                width : 50%;
+                height : 100%;
+                background-color :darksalmon;
+            }
+        </style>
+        <div id="div-bg"></div>
+        <hr>
+        <style>
+            .div-test{
+                background-color: bisque;
+                margin: 30px;
+                padding: 20px;
+                width: 15%;
+                border: 5px dashed black;
+                float: left;
+    /*margin - border - padding - content*/  
+            }
+            #div1{
+                background-clip: border-box;
+            }
+            #div2{
+                background-clip: padding-box;
+            }
+            #div3{
+                background-clip: content-box;
+            }
+        </style>
+        <div class="div-test" id="div1">
+            수없이 잃었던 춥고 모진 날 사이로
+            조용히 잊혀진 네 이름을 알아
+            멈추지 않을게 몇 번 이라도 외칠게
+            믿을 수 없도록 멀어도
+            가자 이 새벽이 끝나는 곳으로
+        </div>
+        <div class="div-test" id="div2">
+            수없이 잃었던 춥고 모진 날 사이로
+            조용히 잊혀진 네 이름을 알아
+            멈추지 않을게 몇 번 이라도 외칠게
+            믿을 수 없도록 멀어도
+            가자 이 새벽이 끝나는 곳으로
+        </div>
+        <div class="div-test" id="div3">
+            수없이 잃었던 춥고 모진 날 사이로
+            조용히 잊혀진 네 이름을 알아
+            멈추지 않을게 몇 번 이라도 외칠게
+            믿을 수 없도록 멀어도
+            가자 이 새벽이 끝나는 곳으로
+        </div>
+        <br clear="both">
+        <hr>
+        <h3>배경 이미지 테스트</h3>
+        
+        <style>
+            #bg-img{
+                width: 65%;
+                height: 610px;
+                border: 1px solid crimson;
+                background-image: url(img/KakaoTalk_Photo_2021-02-03-10-24-44.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment:scroll;
+            }
+        </style>
+        <div id="bg-img"></div>
+    </body>
+</html>

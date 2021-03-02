@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS 선택자</title>
+<!--        <link href="resources/khdesign.css" rel="stylesheet" type="text/css">-->
+    </head>
+    <body>
+        <style>
+            p{
+                color: darkcyan !important;
+            }
+            #p2{
+                color:yellowgreen;
+            }
+            .p{
+                color: cadetblue;
+            }
+            p{
+                color: coral;
+            }
+        </style>
+        <p id="p1">난 전체 스타일의 p 태그 입니다.</p>
+        <p class="p" id="p2">나는 클래스 스타일의 p태그 입니다.
+        </p><p class="p" id="p3">나는 ID 스타일의 p태그 입니다.</p>
+        <p class="p" id="p4" style="color:crimson;">나는 인라인 스타일의 p태그 입니다.</p>
+        <hr>
+        <!-- CSS 선택자 -->
+    
+<!--    1. 전체 선택자 -->
+<!--
+        <style>
+            *{
+                color: burlywood;
+                background-color: darkslategray;
+            }
+        </style>
+-->
+
+        <!-- 2. 태그 선택자 -->
+        <!--
+        <style>
+            p{
+                color: burlywood;
+                background-color: darkslategray;
+            }
+            body{
+                color: burlywood;
+                background-color: darkslategray;
+            }
+        </style>
+-->
+        <!-- 아이디/클래스 선택자-->
+<!--
+        <style>
+            #p1{
+                color: burlywood;
+                background-color: darkslategray;
+            }
+            #p2{
+                color:darkolivegreen;
+                background-color:antiquewhite
+            }
+            .c1{
+                color: crimson;
+            }
+        </style>
+
+        <p id="p1">Test 글자입니다.</p>
+        <p id="p2">테스트 글자입니다.</p>
+        <h4 class="c1">테st 글자입니다.</h4>
+        <p class="c1">Test 글자입니다.2</p>
+        <p>테스트 글자입니다.2</p>
+        <h4 class="c1">테st 글자입니다.2</h4>
+-->
+<!--
+        <style>
+            p[name=n1]{
+                background-color: #a9af90;
+            }
+            p[name=n2]{
+                background-color: #dfdcb9;
+            }
+            input[name=userId]{
+                background-color: #586c5c;
+            }
+        </style>
+
+        <input type="text" name="userId">
+        <input type="text" name="userPwd">
+        
+        <p name="n1">Test 글자입니다.</p>
+        <p name="n2">테스트 글자입니다.</p>
+        <h4 name="n3">테st 글자입니다.</h4>
+        <hr>
+-->
+<!--
+        <style>
+            p[name~=Test]{
+                color: #3e9cbf;
+            }
+            p[class|=class]{
+                color: #f26d50;
+            }
+        </style>
+        <p name="Test 1" id="i1" class="class-c1">Test1 글자입니다.</p>
+        <p name="Test 2" id="i2" class="c1">
+        Test2 글자입니다.</p>
+        <p name="Test 3" id="i3" class="c1">Test3 글자입니다.</p>
+        <p name="Test 4" id="i4" class="c2">Test4 글자입니다.</p>
+        <p name="Test 5" id="i5" class="c2">Test5 글자입니다.</p>
+        <p name="Test 6" id="i6" class="class-c2">Test6 글자입니다.</p>
+-->
+<!--
+        <style>
+            p[class*=p]{
+                color: #f2c43d;
+            }
+        </style>
+        <p name="Test 1" id="i1" class="p-class c1">Test1 글자입니다.</p>
+        <p name="Test 2" id="i2" class="class c1">
+        Test2 글자입니다.</p>
+        <p name="Test 3" id="i3" class="class c2">Test3 글자입니다.</p>
+        <p name="Test 4" id="id4" class="class c2">Test4 글자입니다.</p>
+        <p name="Test 5" id="id5" class="class c3">Test5 글자입니다.</p>
+        <p name="Test 6" id="id6" class="class-p c3">Test6 글자입니다.</p>
+-->
+        
+    </body>
+</html>

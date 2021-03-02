@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>애니메이션</title>
+        <style>
+            .div1{
+                width: 100px;
+                height: 100px;
+                margin: 100px;
+                background: gold;
+                animation-name: trans1;
+                animation-direction: normal;
+                animation-duration: 5s;;
+                animation-iteration-count: infinite;
+            }
+            @keyframes trans1{
+                from{
+                    background: darksalmon;
+                }
+                to{
+                    background: darkcyan;
+                    transform: perspective(300px) rotate(360deg);
+                }
+            }
+            .div2{
+                width: 100px;
+                height: 100px;
+                margin: 100px;
+                animation-name: trans2;
+                animation-duration: 5s;
+                animation-direction: alternate;
+                animation-iteration-count: infinite;
+            }
+            @keyframes trans2{
+                0%{
+                    background-color: bisque;
+                }
+                30%{
+                    transform: translate(50px, 50px);
+                }
+                50%{
+                    background-color: crimson;
+                    transform: scale(1.5);
+                }
+                100%{
+                    background-color: coral;
+                    transform: rotate(45deg);
+                }
+            }
+            img{
+                margin-left: 100px;
+                width: 100px;
+                height: 100px;
+            }
+            img:hover{
+                animation-name: trans1;
+                animation-duration: 4s;
+                animation-direction: normal;
+                animation-iteration-count: infinite;
+            }
+/*
+        1. normal : 처음 -> 끝
+        2. reverse : 끝 -> 처음
+        3. alternate : 처음 -> 끝 -> 처음
+        4. arternate-reverse : 끝 -> 처음 -> 끝
+*/
+        </style>
+    </head>
+    <body>
+        <h1>애니메이션</h1>
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <br><br><br>
+        <img src="img/iconsample.PNG" alt="애니메이션 아이콘" />
+    </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>텍스트 색상 스타일</title>
+</head>
+
+<body>
+    <style>
+        #c-name {
+            color: coral;
+        }
+
+        #c-16 {
+            color: #3e9cbf;
+        }
+
+        #c-rgb {
+            color: rgb(242, 196, 61);
+        }
+
+        #c-rgba {
+            color: rgba(139, 173, 13, 1)
+        }
+    </style>
+    <ul>
+        <li id="c-name">색상명으로 지정</li>
+        <li id="c-16">16진수 값으로 지정</li>
+        <li id="c-rgb">rgb값으로 지정</li>
+        <li id="c-rgba">rgba값으로 지정</li>
+    </ul>
+    <hr>
+    <h3>text-decoration 속성 : 텍스트에 줄을 긋거나 줄을 없앨 때 사용한다.</h3>
+    <pre> 선택자 {text-decoration : none | underline 
+        | overline | line-through; }의 형식으로 표현한다.</pre>
+
+    <style>
+        #td1 {
+            text-decoration: none;
+        }
+
+        #td2 {
+            text-decoration: underline;
+        }
+
+        #td3 {
+            text-decoration: line-through;
+        }
+
+        #td4 {
+            text-decoration: overline;
+        }
+    </style>
+    <ul>
+        <li><a href="#" id="td1">하이퍼링크 밑줄 없애기</a></li>
+        <li id="td2">텍스트영역 아래 줄 긋기</li>
+        <li id="td3">텍스트영역 중간에 줄 긋기</li><br>
+        <li id="td4">텍스트영역 위에 줄 긋기</li>
+    </ul>
+    <hr>
+
+    <h3>text-transform 속성 : 영문 텍스트의 대소문자 변환시 사용한다.</h3>
+    <pre> 선택자 { text-transform : none | capitalize 
+    | uppercase | lowercase; }의 형식으로 표현한다.</pre>
+    <style>
+        #tt1 {
+            text-transform: none;
+        }
+
+        #tt2 {
+            text-transform: capitalize;
+        }
+
+        #tt3 {
+            text-transform: uppercase;
+        }
+
+        #tt4 {
+            text-transform: lowercase;
+        }
+    </style>
+    <ul>
+        <li id="tt1">none</li>
+        <li id="tt2">capitalize : 영문자의 첫 글자만 대문자로</li>
+        <li id="tt3">uppercase : 모든 영문자를 대문자로</li>
+        <li id="tt4">LOWERCASE : 모든 영문자를 소문자로</li>
+    </ul>
+    <hr>
+    
+    <h3>text-shadow : 텍스트에 그림자 효과를 줄 때 사용한다.</h3>
+    <pre>선택자 { text-shadow : none | 
+        가로거리 세로거리 번짐정도 색상; }의 형식으로 표현</pre>
+    <style>
+        #bg{background-color: black;
+            margin: 30px;
+            padding: 50px;}
+        .shadow{font-size: 100px;
+                line-height: 30px;
+                font-weight: 900;}
+        /*그림자 효과*/
+        #ts1{color: orangered;
+            text-shadow: 5px 5px orange;}
+        #ts2{color: white;
+            text-shadow: 0px 1px 50px #FFFFFF;}
+        #ts3{color: white;
+            text-shadow: 1px 1px 20px #66FF00;}
+        #ts4{color: black;
+            text-shadow: 0px 0px 4px #ccc, 0px -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -19px 18px #f20;}
+    </style>
+    <div id="bg">
+        <pre>
+		<span id="ts1" class="shadow">HTML5</span><br><br>
+                <span id="ts2" class="shadow">HTML5</span><br><br>
+                <span id="ts3" class="shadow">HTML5</span><br><br>
+                <span id="ts4" class="shadow">HTML5</span>
+	</pre>
+    </div>
+    <p>첫번째 값 : 5px 5px orange</p>
+    <p>두번째 값 : 0px 1px 20px #fff</p>
+    <p>세번째 값 : 1px 1px 20px #6f0</p>
+    <p>네번째 값 : 0px 0px 4px #ccc, 0px -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -19px 18px #f20</p>
+    <hr>
+</body></html>

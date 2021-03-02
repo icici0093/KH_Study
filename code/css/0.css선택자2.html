@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>CSS 선택자2</title>
+</head>
+
+<body>
+    <!--
+        <style>
+            div>h1{
+                background-color: #f0dbb0;
+            }
+            div li{
+                color: #4f6a8f;
+            }
+        </style>
+        <div>
+            <h1>자손입니다.</h1>
+            <h2></h2>
+            <ul>
+                <li>후손1입니다.</li>
+                <li>후손2입니다.</li>
+            </ul>
+        </div>
+-->
+<!--
+    <style>
+        div>h4 {
+            background-color: cadetblue
+        }
+        div-test li {
+            color: coral;
+        }
+        div-test>ul>li {
+            background-color: antiquewhite;
+        }
+    </style>
+
+
+    <div id="div-test">
+        <h4>div의 자손1 입니다.</h4>
+        <h4>div의 자손2 입니다.</h4>
+        <ul id="ul-test">
+            <li>ul의 자손입니다. 동시에 div의 후손입니다.</li>
+            <li>ul의 자손입니다. 동시에 div의 후손입니다.</li>
+        </ul>
+    </div>
+-->
+<!--
+    <style>
+        h5+p{
+            color: coral;
+        }
+        h5~p{
+            background-color:beige;
+        }
+        h4~p{
+            border: 2px solid darkslategray;
+        }
+    </style>
+    <div>  
+        <h4>자손1</h4>
+        <h5>자손2</h5>
+        <p>자손3</p>
+        <p>자손4</p>
+        <p>자손5</p>
+    </div>
+-->
+<!--
+    <style>
+        #div-test1>p:first-child{
+            color: coral;
+        }
+        #div-test1>p:last-child{
+            background-color: #f2dcb3;
+        }
+        #div-test1>p:nth-child(2n+1){
+            border:3px solid darkslategray;
+        }
+        #div-test2>p:nth-last-child(1){
+            border:3px solid #ff6666;
+        }
+    </style>
+    <div>
+        <div id="div-test1">
+            <p>테스트1-1 입니다.</p>
+            <p>테스트1-2 입니다.</p>
+            <p>테스트1-3 입니다.</p>
+        </div>
+        <div id="div-test2">
+            <p>테스트2-1 입니다.</p>
+            <p>테스트2-2 입니다.</p>
+            <p>테스트2-3 입니다.</p>
+        </div>     
+    </div>
+-->
+<!--
+    <style>
+        #div-test3>p:nth-child(2){
+            color: salmon;
+        }
+        #div-test3>p:nth-child(2n+1){
+            background-color: beige;
+        }
+    </style>
+    <div id="div-test3">
+        <p>테스트1 입니다.</p>
+        <p>테스트2 입니다.</p>
+        <p>테스트3 입니다.</p>
+        <p>테스트4 입니다.</p>
+        <p>테스트5 입니다.</p>
+        <p>테스트6 입니다.</p>      
+    </div>
+-->
+<!--
+    <style>
+        #div-test4>p:nth-of-type(2){
+            color: crimson;
+        }
+        #div-test4>h4:nth-of-type(3){
+            background-color: coral;
+        }
+        #div-test4>h4:nth-last-of-type(3){
+            background-color:cornsilk;
+        }
+    </style>
+    <div id="div-test4">
+        <p>테스트 1p 입니다.</p>
+        <h4>테스트 h1 입니다.</h4>
+        <p>테스트 2p 입니다.</p>
+        <h4>테스트 h2 입니다.</h4>
+        <p>테스트 3p 입니다.</p>
+        <h4>테스트 h3 입니다.</h4>
+        <p>테스트 4p 입니다.</p>
+        <h4>테스트 h4 입니다.</h4>
+    </div>
+-->
+<!--
+    <style>
+        #div-test5>p:hover{
+            font-size: 20px;
+            color: crimson;
+        }
+    </style>
+    <div id="div-test5">
+        <p id="p1">Test p1입니다.</p>
+        <p id="p2">Test p2입니다.</p>
+        <p id="p3">Test p3입니다.</p>
+        <p id="p4">Test p4입니다.</p>
+        <p id="p5">Test p5입니다.</p>
+        <p id="p6">Test p6입니다.</p>
+    </div>
+-->
+<!--
+    <style>
+        input:checked{
+            width : 20px;
+            height: 20px;
+        }
+        input[type=text]:focus{
+            background-color:#ff6666;
+        }
+    </style>
+    <fieldset>
+        <legend>회원 정보 입력</legend>
+        이름 : <input type="text"> <br>
+        나이 : <input type="text"> <br>
+        성별 : 남자<input type="radio" name="gender"> 
+        여자<input type="radio" name="gender"> <br>
+        <hr>
+        취미 : 
+        노래<input type="checkbox"> 
+        운동<input type="checkbox"> 
+        맛집탐방<input type="checkbox"> 
+        기타<input type="checkbox">
+    </fieldset>
+    <hr>
+-->
+<!--
+    <style>
+        option:disabled{
+            color: coral;
+        }
+        option:enabled{
+            color: darkcyan;
+        }
+    </style>
+    <fieldset>
+        <legend>회원가입(19세 미만 가입 불가)</legend>
+        ID : <input type="text"><br>
+        PW : <input type="password"><br>
+        이름 : <input type="text"><br>
+        나이 : 
+        <select>
+            <option disabled>10대</option>
+            <option>20대</option>
+            <option selected>30대</option>
+            <option>40대</option>
+        </select>
+    </fieldset>
+-->
+<!--
+    <style>
+        :link{
+            color: darkcyan;
+        }
+        :visited{
+            color: coral;
+        }
+    </style>
+    
+    <a href="http://www.iei.or.kr">KH 정보교육원</a>
+-->
+    <style>
+        #p4::selection{
+            background-color: coral;
+        }
+    </style>
+    <p id="p1">테스트 입니다.<br>
+                줄바꿈입니다.</p>
+    <p id="p2">테스트 입니다.<br>
+                줄바꿈입니다.</p>
+    <p id="p3">테스트 입니다.<br>
+                줄바꿈입니다.</p>
+    <p id="p4">테스트 입니다.<br>
+                줄바꿈입니다.</p>
+    
+    <hr>
+    
+<!--
+    <style>
+        p:not(#p1){
+            color: darkcyan;
+        }
+    </style>
+    
+    <p id="p1">나는 p태그 입니다. 1</p>
+    <p id="p2">나는 p태그 입니다. 2</p>
+    <p id="p3">나는 p태그 입니다. 3</p>
+    <p id="p4">나는 p태그 입니다. 4</p>
+    <p id="p5">나는 p태그 입니다. 5</p>
+-->
+    
+</body></html>
