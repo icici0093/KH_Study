@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .area{
+            background-color: #edddd4;
+            border: 1px solid black;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Javascript 내장함수</h1>
+    <h3>인코딩과 디코딩에 관련된 내장함수</h3>
+    <p>
+        1.escape <br>
+        2. encodeURI <br>
+        3. encodeURIComponent <br>
+
+        4. unescape <br>
+        5. decodeURI <br>
+        6. decodeURIComponent
+    </p>
+
+    <button onclick="testEncode();">실행확인</button>
+    <div id="area1" class="area"></div>
+    <script>
+        function testEncode(){
+            var URI = "http://www.naver.com?test=한글입니다.";
+            var areaTag = document.getElementById("area1");
+            var escapeURI = escape(URI);
+            var ecURI = encodeURI(URI);
+            var ecURIC = encodeURIComponent(URI);
+
+            areaTag.innerHTML += "<b>인코딩 작업</b> <br>";
+            areaTag.innerHTML += "escape() : " + escapeURI + "<br>";
+            areaTag.innerHTML += "encodeURI() : " + ecURI + "<br>";
+            areaTag.innerHTML += "encodeURIComponent() : " + 
+            ecURIC + "<br>";
+            areaTag.innerHTML += "<b>디코딩 작업</b> <br>";
+            areaTag.innerHTML += "unescape() :" + unescape(escapeURI) + "<br>";
+            areaTag.innerHTML += "decodeURI() : " + decodeURI(ecURIC) + "<br>";
+            areaTag.innerHTML += "decodeURIComponent() : " +
+            decodeURIComponent(ecURIC) + "<br>";
+        }
+    </script>
+    <h3>eval() 함수</h3>
+    <p>문자열을 자바스크립트 코드로 변환해 실행하는 함수</p>
+
+    <label><input type="text" name="number1" id="number1"></label>
+    <label><input type="text" name="number2" id="number2"></label>
+    <button onclick="testEval();">실행확인</button>
+    <div id="area2" class="area"></div>
+    <script>
+        // var testEval = "var x = 1;";
+        // eval(testEval);
+        // console.log(x);
+        function testEval(){
+            var evalStr = "";
+            // var number1 = paseInt(document.getElementById('number1').value);
+            // var number2 = parseInt(document.getElementbyId('number2').value)
+            // var sum = 0;
+            // sum = number1 + number2;
+            // document.getElementById('area2').innerHTML += number1 + '과' + number2 + '의 합은 ' + sum + '입니다.';
+            
+            evalStr += "var number1 = parseInt(document.getElementById('number1').value);";
+            evalStr += "var number2 = parseInt(document.getElementById('number2').value);";
+            evalStr += "var sum = 0;";
+            evalStr += "sum = number1 + number2;";
+            evalStr += "document.getElementById('area2').innerHTML += number1 + '과' + number2 + '의 합은 ' + sum + '입니다.';";
+            eval(evalStr); //문자열을 스크립트 코드로 변환
+        }
+    </script>
+</body>
+</html>

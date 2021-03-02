@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event</title>
+    <style>
+        .area{
+            background-color: #f5cac3;
+            border: 1px solid black;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>이벤트</h1>
+    <p>
+        이벤트 : 웹페이지에서 어떠한 행위(사용가의 행동)가 발생한 것을 이벤트라 함 <br>
+        이벤트 활용 : 이벤트 속성과 이벤트핸들러(함수)를 연동하여 이벤트 발생시 특정 기능을 하도록 함
+    </p>
+    <h3>이벤트 설정방법</h3>
+    <p>
+        1. 고전 이벤트 모델 <br>
+        2. 인라인 이벤트 모델 <br>
+        3. 표준 이벤트 모델 <br>
+    </p>
+    <h3>고전 이벤트 모델</h3>
+    <button id="test1">test1() 실행확인</button> <br><br>
+    <button id="test2">test2() 실행확인</button>
+    <div id="area1" class="area"></div>
+    <script>
+        var test1Tag = document.getElementById("test1");
+        var test2Tag = document.getElementById("test2");
+
+        test1Tag.onclick = function(){ // 익명함수
+            var area1Tag = document.getElementById("area1");
+            area1Tag.innerHTML += "test1()이/가 실행되었습니다. <br>";
+        };
+
+        test2Tag.onclick = function(){ // 익명함수
+            var area1Tag = document.getElementById("area1");
+            area1Tag.innerHTML += "test2()이/가 실행되었습니다. <br>"
+            test1Tag.onclick = null; // 이벤트 제거
+        };
+    </script>
+    <br><br><br><br><br><br><br><br><br>
+    <h3>인라인 이벤트 모델</h3>
+    <button onclick="inlineFunc();alert('inline alert');">실행확인
+    </button>
+    <div id="area2" class="area"></div>
+    <script>
+        function inlineFunc(){
+            var area2Tag = document.getElementById("area2");
+            area2Tag.innerHTML = "인라인 이벤트 모델로 실행되었습니다.";
+        }
+    </script>
+    <br><br><br><br><br><br><br><br><br>
+    <h3>표준 이벤트 모델</h3>
+    <button id="btn1">실행확인</button>
+    <div id="area3" class="area"></div>
+    <script>
+        var btnTag = document.getElementById("btn1");
+        btnTag.addEventListener("click", function(){
+            var area3Tag = document.getElementById("area3");
+            area3Tag.innerHTML = "표준 이벤트 모델로 실행되었습니다."
+        });
+    </script>
+    <br><br><br><br><br><br><br><br><br>
+    <h3>이벤트 발생 객체</h3>
+    <br>
+    <button id="btn2">실행확인</button>
+    <div id="area4" class="area"></div>
+    <script>
+        var btn2Tag = document.getElementById("btn2");
+        btn2Tag.onclick = function(e){
+            console.log(e);
+            console.log(e.target);
+            console.log(this);
+            this.style.backgroundColor = "red";
+            this.style.color = "white";
+        }
+    </script>
+</body>
+</html>

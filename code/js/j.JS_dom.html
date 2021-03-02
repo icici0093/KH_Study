@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+    <style>
+        .area{
+            background-color: salmon;
+            border: 1px solid black;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOM(Document object Model)</h1>
+    <p>문서객체 : HTML에 있는 태그를 객체화하여 자바스크립트에서 다룰 수 있게 한 것</p>
+
+    <h1>텍스트 노드가 있는 노드 생성</h1>
+    <button onclick="domtest1();">실행확인</button>
+    <div id="area1" class="area"></div>
+    <script>
+        function domtest1(){
+            var element = document.createElement("h3");
+            var text = document.createTextNode("DIV 밑으로!!");
+            element.appendChild(text); //<h3>DIV 밑으로!!</h3>
+            document.getElementById("area1").appendChild(element);
+            // document.getElementById("area1").innerHTML = "<h3>DIV 밑으로!!</h3>";
+        }
+    </script>
+
+    <br>
+    <h1>텍스트 노드가 없는 노드 생성</h1>
+
+    <button id="btn-img">실행확인</button>
+    <div id="area2" class="area"> 
+        <img id="img-tag" />
+    </div>
+    <h3>노드 삭제</h3>
+    <button id="btn-remove">실행확인</button>
+    <script>
+        var imgTag = document.createElement("img"); //생성하고싶은 태그네임 입력
+        document.getElementById("btn-img").onclick = function(){
+            imgTag.src = "https://tiprelay.com/wp-content/uploads/2021/01/쿠키런-킹덤-마들렌맛-쿠키.jpg";
+            imgTag.width = "150";
+            imgTag.height = "100";
+            document.getElementById("area2").appendChild(imgTag);
+        }
+        document.querySelector("#btn-remove").onclick = function(){
+            var area2Tag = document.querySelector("#area2");
+            // area2Tag.remove(); // area2Tag를 전체 삭제
+            area2Tag.removeChild(imgTag);
+        }
+    </script>
+
+    <hr>
+    <br>
+    <section id="section1">
+        <h1>childNodes를 이용한 노드 선택</h1>
+        
+        <div class="area">
+            <input type="text">
+            <input type="text">
+            <!-- 공백을 텍스트 노드로 인식을 함 -->
+            <button id="btn-child">실행확인</button>
+        </div>
+    </section>
+    <script>
+        var section1 = document.querySelector("#section1");
+        var divTag = section1.querySelector(".area");
+        var input1 = divTag.children[0];
+        var input2 = divTag.children[1]; // 자식의 요소를 가져옴
+        input1.value = "Hello";
+        input2.value = "DOM";
+        // var section1 = document.getElementById("section1");
+        // var input1 = divTag.childNodes[1];
+        // var input2 = divTag.childNodes[3]; // 공백 포함
+        // var divTag = document.getElementsByClassName("area");
+        // var divTag = section1.getElementsByClassName("area"); // 전체 태그에서 찾는것이 아니라 section1 내에서만 찾음
+        // var inputTags = divTag[0].getElementsByTagName("input");
+        // var inputTags = divTag.querySelectorAll("input");
+        // console.log(divTag);
+        // console.log(inputTags);
+        // var input1 = divTag.querySelectorAll("input")[0];
+        // var input2 = divTag.querySelectorAll("input")[1];
+        // console.log(input1);
+        // console.log(input2);
+    </script>
+    <br><br><br><br><br><br><br><br><br><br>
+    <section id="section2">
+        <h1>Element Node 속성 변경</h1>
+        <div>
+            <!-- <input type="text" class="img-word"> -->
+            <select name="" id="" class="img-select">
+                <option value="1.gif">img01</option>
+                <option value="2.jpg">img02</option>
+                <option value="3.jpg">img03</option>
+            </select>
+            <input id="change-img" type="button" value="변경">
+        </div>
+        <div>
+            <img src="img/1.gif" alt="" class="img-tag">
+        </div>
+    </section>
+    <script>
+        var section2 = document.querySelector("#section2");
+        // var input = section2.querySelector(".img-word");
+        var inputSelect = section2.querySelector(".img-select");
+        var changBtn = section2.querySelector("#change-img");
+        var imgTag = section2.querySelector(".img-tag");
+        changBtn.onclick = function(){
+            imgTag.src = "img/" + inputSelect.value;
+        }
+    </script>
+</body>
+</html>

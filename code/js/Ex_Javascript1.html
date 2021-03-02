@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>innerHTML로 요소의 내용 변경하기</h3>
+	<div id="area1">자바스크립트에서 태그 앨리먼트의 값을 읽어가거나, 
+        값을 변경할 때 innerHTML 속성을 사용함.
+    </div><br>
+    <h3>console.log()로 개발자도구 콘솔화면에 출력하기</h3>
+	<p>개발자도구 콘솔화면에 출력을 하고자 할 때 사용하며, 
+        디버깅 할 때 주로 사용된다.
+    </p>
+    <h3>window.confirm()을 이용한 데이터 입력</h3>
+	<p>어떤 질문에 대해 "예/아니오"의 결과를 얻을 때 사용한다.</p>
+	<p>확인 버튼과 취소버튼이 나타나며, 확인버튼을 클릭시 true, 취소버튼을 클릭시 false를 리턴한다.</p>
+
+    <h3>window.prompt()를 이용한 데이터 입력</h3>
+	<p>텍스트필드와 확인/취소버튼이 있는 대화상자 출력하고 입력한 메세지 내용을 리턴값으로 돌려받는다.</p>
+    <script>
+        var divTag = document.getElementById("area1");
+        divTag.innerHTML = "부리부리용사";
+        
+        var pTag = document.getElementsByTagName("p");
+        console.log(pTag[0].innerHTML);
+
+        // alert("Test"); 메시지 출력
+        // confirm("Test"); 확인/취소 선택
+        // prompt("Test"); 값 입력
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM Access</title>
+</head>
+<body>
+    <input type="text" name="userId" id="userId" placeholder="아이디를 입력하세요">
+    
+    <p id="p11" name="pp">안녕하세요</p>
+    <p id="p22" name="pp">자바스크립트</p>
+    <p id="p33" name="pp">세계입니다</p>
+    <script>
+        var inputTag = document.getElementById("userId");
+        // console.log(inputTag);
+        var p11Tag = document.getElementById("p11");
+        var p22Tag = document.getElementById("p22");
+        console.log(p11Tag);
+        console.log(p11Tag.innerHTML);
+        // p11Tag.innerHTML = "안녕히계세요";
+        // console.log(p22Tag);
+        console.log(p22Tag.innerHTML);
+        // p22Tag.innerHTML = "Javascript";
+
+        var pTags = document.getElementsByName("pp");
+        console.log(pTags);
+        console.log(pTags[0]);
+        console.log("0번째 : " + pTags[0].innerHTML);
+        console.log("1번째 : " + pTags[1].innerHTML);
+        console.log("2번째 : " + pTags[2].innerHTML); 
+
+        if(true){
+        pTags[0].style.backgroundColor = "yellow";
+        pTags[0].style.color = "red";
+        }
+    </script>
+
+    <pre id="p11" name="pre1">Hello</pre>
+    <pre id="p12" name="pre1">Javascript</pre>
+    <pre id="p13" name="pre1">world</pre>
+    <script>
+        // var preTags = document.getElementsByName("pre1");
+        // console.log(preTags);
+        // console.log("0번째 : " + preTags[0].innerHTML);
+        // console.log("1번째 : " + preTags[1].innerHTML);
+        // console.log("2번째 : " + preTags[2].innerHTML); 
+        var preTags = document.getElementsByTagName("pre");
+        console.log("0번째 : " + preTags[0].innerHTML);
+        console.log("1번째 : " + preTags[1].innerHTML);
+        console.log("2번째 : " + preTags[2].innerHTML);
+
+        
+    </script>
+
+</body>
+</html>
