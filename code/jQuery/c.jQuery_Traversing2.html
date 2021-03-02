@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Traversing</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <style>
+        .siblings *{
+            display: block;
+            border: 2px solid lightgray;
+            color: lightgray;
+            padding: 5px;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>jQuery 객체 탐색(jQuery Traversing)</h1>
+    <p>- jQuery Traversing은 jQuery의 순회(탐색) <br>
+        - 특정 요소를 찾거나 필터링하는 작업이며 대부분 선택자(selector)를 사용하지만 1차적으로 선택자에 의해서 찾은 요소들을 다시 2차 필터링 하거나 새로운 요소를 추가할 때에는 Traverse 관련 메소드를 사용함
+    </p>
+    <h3>Siblings 메소드</h3>
+
+    <script>
+        $(document).ready(function(){
+            // h2를 제외한 형제레벨 요소 선택
+            // $("h2").siblings().css("border", "2px solid red");
+
+            // 전달값이 있으면 그 전달값만 선택
+            // $("h2").siblings("p").css("border", "2px solid red");
+
+            // h4 포함 안됨
+            // $("h4").next().css("border", "2px solid red");
+            // $("h4").nextAll().css("border", "2px solid red");
+            // 마지막 태그 포함 안됨
+            // $("h4").nextUntil("p").css("border", "2px solid red");
+
+            // $("h4").prev().css("border", "2px solid red");
+            // $("h4").prevAll().css("border", "2px solid red");
+            $("h4").prevUntil("p").css("border", "2px solid red");
+
+
+        });
+    </script>
+    
+    <div class="siblings">
+        <div>
+            div(parent)
+            <p>p tag</p>
+            <span>span tag</span>
+            <h2>h2</h2>
+            <h3>h3</h3>
+            <h4>h4</h4>
+            <h5>h5</h5>
+            <h6>h6</h6>
+            <p>p tag</p>
+        </div>
+    </div>
+</body>
+</html>

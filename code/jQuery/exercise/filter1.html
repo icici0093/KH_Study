@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script>
+        function checkBtn(){
+            var checkTags = $("input").filter("input:checked");
+            for(var i = 0; i < checkTags.length; i++){
+                console.log(checkTags[i].value + "번");
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="checkbox" name="check" value="1"> 1번
+    <input type="checkbox" name="check" value="2"> 2번
+    <input type="checkbox" name="check" value="3"> 3번
+    <input type="checkbox" name="check" value="4"> 4번
+    <br>
+    <input type="button" value="체크 버튼 확인" onclick="checkBtn();">
+</body>
+</html>

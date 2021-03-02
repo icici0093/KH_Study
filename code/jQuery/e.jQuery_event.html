@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <style>
+        .reverse{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // document.getElementById("btn1").onclick = function(){
+
+        // }
+        // document.getElementById("btn2").addEventListener("click", function(){
+
+        // });
+        $(document).ready(function(){
+            // $("#div-hover").hover(function(){
+            //     $("#div-hover").addClass("reverse");
+            // });
+            $("#div-hover").on("mouseover", function(){
+                $(this).css("background-color", "yellow");
+            });
+            $("#click").on("click", function(){
+                $("#click").css("color", "red");
+            });
+            $("#dblclick").on("dblclick", function(){
+                $(this).css("background", "blue");
+            });
+            $("#div-updown").on("mouseup", function(){
+                $(this).css("background", "red");
+            });
+            $("#div-updown").on("mousedown", function(){
+                $("#div-updown").css("background", "blue");
+            });
+            
+            // var inLength = 0;
+            // keyup,keydown은 한글 카운트 가능, kepress일때는 카운트 불가
+            $("textarea").on("keyup", function(){
+                var inLength = $(this).val().length;
+                $("#noti").html("작성 가능한 글자 수 : " + (150 - inLength));
+            });
+            
+            // submit() 메소드의 전달값으로 false를 주면 실행되지 않음
+            $("#my-form").submit(function(){
+                var userIdTag = $("#userId");
+                var userPwTag = $("#userPw");
+                if(userIdTag.val() == ""){
+                    alert("ID를 입력해주세요.");
+                    return false;
+                }else if(userPwTag.val() == ""){
+                    alert("PW를 입력해주세요.")
+                    return false;
+                }
+                return true;
+            });
+
+            $("input").focus(function(){
+                $(this).css("background", "gold");
+            });
+            $("input").on("blur", function(){
+                $(this).css("background", "white");
+            });
+
+            $("#allCheck").on("change", function(){
+                // console.log($(this).is(":checked"));
+                var divTag = $("#check-item");
+                var checkTags = divTag.children();
+                if($(this).is(":checked")){
+                    // checkbox 3개를 체크
+                    // checkTags.attr("checked", "checked");
+                    checkTags.prop("checked", true);
+                }else{
+                    // checkbox 3개를 체크 해제
+                    // checkTags.removeAttr("checked");
+                    checkTags.prop("checked", false);
+                }
+            });
+        });
+        $(document).mousemove(function(event){
+            $("#span1").text(event.pageX + ", " + event.pageY);
+        });
+
+        function selectBtn(){
+            var selected = $("input");
+        }
+    </script>
+    <h1>이벤트</h1>
+    <h3>마우스오버 이벤트</h3>
+    <div id="div-hover" style="border: 3px solid black; width: 100px; height: 100px;"></div>
+
+    <h3>클릭 / 더블클릭 이벤트</h3>
+    <p id="click">click</p>
+    <p id="dblclick">double click</p>
+
+    <h3>마우스업 / 다운 이벤트</h3>
+    <div id="div-updown" style="border: 3px solid black; width: 100px; height: 100px;"></div>
+
+    <h3>마우스 이동 이벤트</h3>
+    <h1>Mouse is a coordinate : 
+        <span id="span1"></span>
+    </h1>
+
+    <h3>키업/키프레스 이벤트</h3>
+    <div>
+        <p>글 작성</p>
+        <h1 id="noti">작성 가능한 글자 수 : 150</h1>
+        <textarea name="" id="" cols="60" rows="5"></textarea>
+    </div>
+
+    <h1>입력양식(form)이벤트</h1>
+    <h3>submit / focus / blur</h3>
+    <form id="my-form" action="reult.html">
+        ID : <input type="text" name="userId" id="userId">
+        PW : <input type="password" name="userPw" id="userPw">
+        <input type="submit" value="제출">
+        <input type="reset" value="취소">
+    </form>
+    
+    <h3>change</h3>
+    
+    전체 <input type="checkbox" name="allCheck" id="allCheck"><br>
+    <div id="check-item">
+        <input type="checkbox" name="" id=""> A
+        <input type="checkbox" name="" id=""> B
+        <input type="checkbox" name="" id=""> C
+    </div>
+    남자 : <input type="radio" name="" id=""><br>
+    <select name="" id="">
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+    </select>
+    <br>
+    <input type="button" value="Select 버튼 확인" onclick="selectBtn();">
+    <br><br>
+
+
+</body>
+</html>

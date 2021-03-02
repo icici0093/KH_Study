@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery 메소드 실습</title>
+    <style>
+        .test *{
+             display:block;
+             border: 2px solid lightgrey;
+             color: lightgrey;
+             padding: 3px;
+             margin: 15px;
+         }
+         
+     </style>
+     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+    <script>
+        $(document).ready(function(){
+            var tbodyTag = $("tbody");
+            //currentTag는 바뀌지 않고 항상 'ZOOM 배경화면 안내'임
+            var currentTag = tbodyTag.children().first();
+            $("#btn-down").on("click", function(){
+                var nextTag = currentTag.next(); 
+                // nextTag가 없으면 alert("");
+                if(nextTag.length == 0){
+                    alert("더이상 이동할 수 없습니다.");
+                }
+                // before, insertBefore
+                currentTag.before(nextTag);
+            });
+            $("#btn-up").on("click", function(){
+                var prevTag = currentTag.prev();
+                if(prevTag.length == 0){
+                    alert("더이상 이동할 수 없습니다.");
+                }
+                // after, insertAfter
+                currentTag.after(prevTag);
+            });
+            var inputTags = tbodyTag.eq(1).find("input[type=checkbox]");
+            $("#btn-delete").on("click", function(){
+                $.each(inputTags, function(index, item){
+                    if($(item).is(":checked")){
+                        $(item).parent().parent().remove();
+                    }
+                });
+                // console.log("input[type=checkbox]");
+                // if(inputTags.eq(0).is(":checked")){
+                //     inputTags.eq(0).parent().parent().remove();
+                // }
+            });
+            $(".overall-checkbox").on("change", function(){
+                // alert("changed!");
+                if($(this).is(":checked")){
+                    inputTags.prop("checked", true);
+                }else{
+                    inputTags.prop("checked", false);
+                }
+            });
+            var inputBtns = tbodyTag.eq(1).find("input[type=button]");
+            // inputBtns.each(function(index, item){
+            //     $(this).on("click", function(){
+            //         $(this).parent().parent().remove();
+            //     });
+            // });
+            inputBtns.on("click", function() {
+                $(this).parent().parent().remove();
+            });
+        });
+    </script>
+	<table border="1">
+		<caption><b>위아래 옮기기</b></caption>
+		<thead>
+		<tr>
+			<th>번호</th>
+			<th>제목</th>
+			<th>작성자</th>
+			<th>날짜</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>19253</td>
+			<td>ZOOM 배경화면 안내</td>
+			<td>일용자</td>
+			<td>2021-02-24</td>
+		</tr>
+		<tr>
+			<td>19901</td>
+			<td>	
+				[공지] 모니터링 실시</td>
+			<td>이용자</td>
+			<td>2021-02-24</td>
+		</tr><tr>
+			<td>19992</td>
+			<td>평가 일정표 안내</td>
+			<td>일용자</td>
+			<td>2021-02-24</td>
+		</tr><tr>
+			<td>19993</td>
+			<td>직권신청_확인</td>
+			<td>일용자</td>
+			<td>2021-02-24</td>
+		</tr>
+		</tbody>
+	</table>
+	<button id="btn-up">위로</button>
+	<button id="btn-down">아래로</button>
+	<br>
+	<br>
+	<hr>
+	<br>
+	<button id="btn-delete">delete</button>
+    <table border="1">
+		<caption><b>삭제해보기</b></caption>
+        <thead>
+        <tr>
+            <td><input class="overall-checkbox" type="checkbox"></td>
+            <th>번호</th>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>날짜</th>
+            <th>기능</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>19253</td>
+            <td>ZOOM 배경화면 안내</td>
+            <td>일용자</td>
+            <td>2021-02-24</td>
+            <td><input type="button" value="삭제"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>19901</td>
+            <td>	
+                [공지] 모니터링 실시</td>
+            <td>이용자</td>
+            <td>2021-02-24</td>
+            <td><input type="button" value="삭제"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>19992</td>
+            <td>평가 일정표 안내</td>
+            <td>일용자</td>
+            <td>2021-02-24</td>
+            <td><input type="button" value="삭제"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>19993</td>
+            <td>직권신청_확인</td>
+            <td>일용자</td>
+            <td>2021-02-24</td>
+            <td><input type="button" value="삭제"></td>
+        </tr>
+        </tbody>
+    </table> 
+</body>
+
+</html>

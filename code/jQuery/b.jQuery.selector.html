@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Selector</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $("div>h1").css("color", "#2a9d8f");
+            $("li>h1").css("color", "#e9c46a");
+        });
+    </script>
+    <h1>jQuery 선택자</h1>
+    <p>CSS의 선택자와 동일</p>
+    <div>
+        <ul>
+            <li><h1>Apple</h1></li>
+            <li>Bag</li>
+            <li>Cat</li>
+            <li>Dog</li>
+            <li>Earth</li>
+        </ul>
+        <h1>different H1</h1>
+    </div>
+</body>
+</html>

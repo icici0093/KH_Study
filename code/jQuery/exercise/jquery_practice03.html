@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-3</title>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script>
+            function clear(){
+                $("table *").removeAttr("style");
+            }
+            function click1(){
+                clear();
+                // $("td").eq(1).css("color", "red");
+                // $("td").eq(2).css("color", "red");
+                $("td:contains(10)").css("color", "red");
+                // 10이라는 값을 찾음
+            }
+            function click2(){
+                clear();
+                // $("td").eq(4).css("color", "red");
+                // $("td").eq(5).css("color", "red");
+                $("td:contains(20)").css("color", "red");
+            }
+            function click3(){
+                clear();
+                $("td").eq(1).css("color", "red");
+                $("td").eq(4).css("color", "red");
+            }
+            function click4(){
+                clear();
+                $("td").eq(2).css("color", "red");
+                $("td").eq(5).css("color", "red");
+            }
+    </script>
+</head>
+<body>
+    <table border="1">
+		<tr><th>구분</th><th>A</th><th>B</th></tr>
+		<tr><td>가</td><td>10</td><td>10</td></tr>
+		<tr><td>나</td><td>20</td><td>20</td></tr>
+		<tr><td>계</td><td>30</td><td>30</td></tr>
+	</table>
+	<input type="button" value="[가]색 변경" onclick="click1();" />
+	<input type="button" value="[나]색 변경" onclick="click2();" />
+	<input type="button" value="[A]색 변경" onclick="click3();" />
+	<input type="button" value="[B]색 변경" onclick="click4();" />
+</body>
+</html>
