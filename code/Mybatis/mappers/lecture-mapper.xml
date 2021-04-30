@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="LectureMapper">
+
+	<resultMap type="Lecture" id="lectureResultMap">
+		<id property="lectureNo" column="LECTURE_NO" />
+		<result property="lectureName" column="LECTURE_NAME" />
+		<result property="lectureInstructor" column="LECTURE_INSTRUCTOR" />
+		<result property="lectureIntroduce" column="LECTURE_INTRODUCE" />
+	</resultMap>
+
+	<select id="selectOneLecture" parameterType="_int" resultMap="lectureResultMap">
+		SELECT * FROM LECTURE WHERE LECTURE_NO = #{lectureNo }
+	</select>
+
+	<select id="selectAllLecture" resultMap="lectureResultMap">
+		SELECT * FROM LECTURE
+	</select>
+
+	<insert id="insertLecture" parameterType="Lecture">
+		INSERT INTO LECTURE VALUES(SEQ_LECTURE.NEXTVAL, #{lectureName }, #{lectureInstructor }, #{lectureIntroduce })
+	</insert>
+	
+	<update id="updateLecture" parameterType="Lecture">
+		UPDATE LECTURE 
+		SET LECTURE_NAME = #{lectureName }, 
+		LECTURE_INSTRUCTOR = #{lectureInstructor }, 
+		LECTURE_INTRODUCE = #{lectureIntroduce }
+		WHERE LECTURE_NO = #{lectureNo }
+	</update>
+	
+	<delete id="deleteLecture">
+		DELETE FROM LECTURE WHERE LECTURE_NO = #{lectureNo }
+	</delete>
+</mapper>
